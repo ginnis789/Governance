@@ -79,12 +79,14 @@ h3.Heading3
 {
 	page-break-after: avoid;
 	margin-top: 5pt;
-	margin-bottom: 2pt;
 	mc-heading-level: 3;
 	font-family: 'Interstate Bold';
-	color: #4D768E;
 	font-size: 12pt;
-	font-weight: normal;
+	font-weight: bold;
+	font-style: normal;
+	margin-bottom: 6pt;
+	text-align: left;
+	color: #4d768e;
 }
 
 p.ProductName
@@ -338,12 +340,13 @@ h1.Heading1
 {
 	page-break-after: avoid;
 	margin-top: 12pt;
-	margin-bottom: 5pt;
 	mc-heading-level: 1;
 	font-family: 'Interstate Bold';
 	font-weight: bold;
-	color: #4D768E;
 	font-size: 16pt;
+	text-align: left;
+	margin-bottom: 6pt;
+	color: #4d768e;
 }
 
 li.ListBullet
@@ -374,6 +377,7 @@ h2.Heading2
 	font-weight: bold;
 	color: #4D768E;
 	font-size: 14pt;
+	text-align: left;
 }
 
 span.span_2
@@ -1225,5 +1229,13 @@ p.Footer_1
 	margin-left: 5pt;
 	margin-right: 5pt;
 	margin-top: 3pt;
+}
+
+h1
+{
+	font-family: 'Interstate Bold';
+	font-size: 16pt;
+	color: #4d768e;
+	font-weight: bold;
 }
 
