@@ -1,0 +1,251 @@
+/*<meta />*/
+
+MadCap|xref.ParaTextOnly
+{
+	mc-format: '{paratext}';
+}
+
+h1
+{
+	color: #4d768e;
+	font: Intersate bold;
+	font-size: 16pt;
+	font-family: 'Interstate Bold';
+}
+
+p
+{
+	font: Minion Pro;
+	font-size: 11pt;
+	color: #000000;
+	font-family: 'Minion Pro';
+}
+
+h2
+{
+	color: #4d768e;
+	font: Interstate Bold;
+	font-family: 'Interstate Bold';
+	font-size: 14pt;
+}
+
+h3
+{
+	color: #4d768e;
+	font-family: 'Interstate Bold';
+	font: Interstate Bold;
+	font-size: 12pt;
+}
+
+h4
+{
+	color: #000000;
+	font-family: 'Arial Narrow';
+	font: Arial Narrow;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+h5
+{
+	font-family: 'Arial Narrow';
+	font: Arial Narrow;
+	color: #000000;
+	font-size: 13pt;
+	font-weight: bold;
+	font-style: italic;
+}
+
+caption
+{
+	color: #000000;
+	font: Minion Pro;
+	font-family: 'Minion Pro';
+	font-size: 10pt;
+	font-style: italic;
+}
+
+span.emphasis
+{
+	color: #ff0000;
+	font: Minion Pro;
+	font-family: 'Minion Pro';
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+ol
+{
+	color: #000000;
+	font: Minion Pro;
+	font-family: 'Minion Pro';
+	font-size: 11pt;
+}
+
+ul
+{
+	color: #000000;
+	font: Minion Pro;
+	font-family: 'Minion Pro';
+	font-size: 11pt;
+}
+
+p.footer
+{
+	font-family: 'Interstate Bold';
+	font: Interstate Bold;
+	font-size: 9pt;
+}
+
+@media print
+{
+	p.pagetitle
+	{
+		color: #4d768e;
+		font: Interstate Light;
+		font-size: 30pt;
+		font-weight: bold;
+		font-family: 'Interstate Light';
+		margin: 0pt;
+	}
+
+	p.subtitle
+	{
+		color: #4d768e;
+		font: Interstate Bold;
+		font-size: 16pt;
+		font-weight: bold;
+		font-family: 'Interstate Bold';
+		margin: 0pt;
+	}
+
+	span.contact
+	{
+		color: #000000;
+		font-family: 'Arial Narrow';
+		font: Arial Narrow;
+		font-size: 8pt;
+	}
+
+	p.toctitle
+	{
+		color: #4d768e;
+		page-break-before: always;
+		page-break-after: avoid;
+		font-size: 14pt;
+		font: Interstate Light;
+		font-weight: bold;
+		margin: 0pt;
+		font-family: 'Interstate Light';
+	}
+
+	body
+	{
+		font-family: 'Minion Pro';
+		font-size: 11pt;
+	}
+
+	MadCap|tocProxy
+	{
+		padding-left: 20px;
+		width: 7.5in;
+	}
+
+	p.footer
+	{
+		font: Interstate Light;
+		font-family: 'Interstate Light';
+		margin: 0pt;
+	}
+
+	p.version
+	{
+		color: #4d768e;
+		font-size: 14pt;
+		font: Interstate Bold;
+		font-family: 'Interstate Bold';
+		font-weight: bold;
+		margin: 0pt;
+	}
+
+	p.TOC1
+	{
+		mc-leader-offset: -102pt;
+	}
+
+	p.TOC2
+	{
+		mc-leader-offset: -102pt;
+	}
+
+	p.TOC3
+	{
+		mc-leader-offset: -102pt;
+	}
+
+	p.TOC4
+	{
+		mc-leader-offset: -102pt;
+	}
+
+	p.TOC5
+	{
+		mc-leader-offset: -102pt;
+	}
+
+	p.caption
+	{
+		font-size: 10pt;
+		font-style: italic;
+		margin-top: 0em;
+		margin: 0pt;
+		page-break-before: avoid;
+	}
+
+	img
+	{
+		padding-bottom: 0px;
+		border: none 0px;
+	}
+
+	p.code
+	{
+		font-family: Consolas;
+		font-size: 9.5pt;
+		font: Consolas;
+	}
+
+	p.indent
+	{
+		margin-left: 5.00em;
+		margin-bottom: 0em;
+		margin-top: 0em;
+	}
+
+	p
+	{
+		margin-bottom: 6pt;
+		margin-top: 6pt;
+		margin: 6pt;
+		display: block;
+		margin-right: 0pt;
+		margin-left: 0.06in;
+	}
+
+	p.note
+	{
+		text-indent: -36pt;
+		margin-left: 40pt;
+	}
+
+	h1.nopgbreak
+	{
+		page-break-before: avoid;
+	}
+}
+
+img
+{
+	max-height: 7.5in;
+}
+
