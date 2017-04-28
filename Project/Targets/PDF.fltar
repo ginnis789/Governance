@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CatapultTarget Version="2" 
-	Comment="Adobe PDF Target" 
-	Type="PDF"
-  GlossaryTermConversion="marked">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Adobe PDF Target"
+  Type="PDF"
+  GlossaryTermConversion="marked"
+  MasterStylesheet="/Content/Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
     GenerateIndexProxy="true"
-    GenerateGlossaryProxy="true"/>
+    GenerateGlossaryProxy="true" />
 </CatapultTarget>
