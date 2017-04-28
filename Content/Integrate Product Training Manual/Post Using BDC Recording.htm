@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Exercise_1"><a name="_Toc469048429"></a><span class="span_4">Exercise 1 -  </span>Post Using BDC Recording</p>
+        <p class="Body">Post data to SAP using a Batch Data Communication (BDC) script recording, using either Integrate or an imported SHDB transaction in SAP.</p>
+        <p class="Body">Integrate supports multiple system connections. </p>
+        <p class="Body">A template defines how data is posted into external systems. In this example, we are working through a BDC posting, including which screens and fields will be processed and whether the process contains a single loop or multiple loops, which will be covered in a later section of the training. Templates are not tied to data; they are an independent guide for posting that can be assigned to one or more processes. </p>
+        <p class="Note"><span class="span_3">NOTE</span>:A BDC Script template can be created by copying an existing template. Templates can then be merged with another template. </p>
+        <p class="Body">Once a template is created, it is added to a process. A process, a series of posting steps, defines how Integrate takes data from the platform and transfers it to the business systems. Each posting step is a template that is added to the process. </p>
+        <p class="Body">Once assigned to a process, the BDC Script template can be further configured to include transaction stringing, template process loops tied to different views that contain the data to post to SAP, and field mappings to a specified field in a data model or a fixed value. Integrate can also map many fields in the template with columns in an assigned view automatically. </p>
+        <p class="Body">After the process is configured and activated, use a posting process to send the data to SAP. </p>
+        <p class="Body">BDC script posting process:</p>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Create a Category to organize templates and processes</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Record a BDC script or Import a BDC script from a file</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Configure conditional BDC screens (optional)</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Manage BDC screen fields (optional)</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Configure template loops</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Activate the template </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Add the template to a process </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Create and configure process template loops </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Configure field mappings </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Configure relationships</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Activate the process </li>
+        </ul>
+    </body>
+</html>

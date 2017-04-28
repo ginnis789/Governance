@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Exercise_1"><a name="_Toc469048450"></a><span class="span_4">Exercise 5 -  </span>Copy Template and Transaction Stringing </p>
+        <p class="Body">If the Process has multiple Templates assigned, Templates with a greater priority than the initial Template can use Return Values from previous Templates in their posting. The process is called <span class="span_5">Transaction Stringing</span>. Transaction Stringing can utilize process information from one template (transaction) in a second template (transaction), or it can process two like transactions within one upload. An example of the former is one template creating a material (MM01), then a second template creating a corresponding info record (ME11). Because the material number is not known at the time the second data source is created, it can be passed in from the first data source after it has processed. In order to take advantage of the Transaction Stringing, the <span class="span_5">Vertical</span> View of the <span class="span_3">Process Template Loop Field Mapping</span> allows for the mapping of return values from a previous template to a Template Field of the current template.</p>
+        <p class="Note"><span class="span_3">NOTE</span>:Only multiple template processes based on a BDC Script, GUI Script or BAPI/RFC template types can use Transaction Stringing. The process must use the synchronous post execution method. </p>
+        <p class="Body">Create a process with two templates. The first creates a set of finished materials, and then extends newly created materials to a plant. Use the MM01 Integrate Materials template for the first template. Then create a new template to extend the material to a new plant by copying an existing template.</p>
+        <p class="Body">The following steps are required:</p>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Create a Template by copying one from another Category</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Add a Process to TrainingXX Category.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Add a Second Template to the Process.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Configure Return Value Parameters.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Post the changes.</li>
+        </ul>
+    </body>
+</html>

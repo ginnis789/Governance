@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Outline"><a name="_Toc469048464"></a><span class="span_4">7.3 </span>Update Views in SQL</p>
+        <p class="Body">Enter data into the <span class="span_3">ttXXGLAccounts_XXGLAccounts_Upload</span> table.</p>
+        <p class="Body">To update the view:</p>
+        <ol start="1" class="ol_3">
+            <li class="NumberedList">Open Management Studio on the Desktop. </li>
+            <li class="NumberedList">Enter SQL Server Name from the credentials provided at the beginning of class. </li>
+            <li class="NumberedList">Enter Login and Password from the credentials provided at the beginning of class. </li>
+            <li class="NumberedList">Expand to the <span class="span_3">sdbNorthwindXX </span>database. </li>
+            <li class="NumberedList">Expand <span class="span_3">Tables</span>.</li>
+            <li class="NumberedList">Right click on the <span class="span_3">ttXXGLAccounts_XX_GLAccounts_Upload</span> table.</li>
+            <li class="NumberedList">Select <span class="span_3">Edit Top Rows. </span></li>
+            <li class="NumberedList">Open the <span class="span_3">Integrate Exercises</span> Spreadsheet on the Desktop.</li>
+            <li class="NumberedList">Copy the data not the Header on the <span class="span_3">Upload Table</span> Worksheet.</li>
+            <li class="NumberedList">Paste the data in the <span class="span_3">ttXXGLAccounts_XX_GLAccounts_Upload</span> table in SQL.</li>
+            <li class="NumberedList">Right click on the <span class="span_3">ttXXGLAccounts_XXGLAccounts</span>_<span class="span_3">Loop1_1_Upload</span> table.</li>
+            <li class="NumberedList">Select <span class="span_3">Edit Top Rows. </span></li>
+            <li class="NumberedList">Return to the <span class="span_3">Integrate Exercises</span> Spreadsheet on the Desktop.</li>
+            <li class="NumberedList">Enter the data from the <span class="span_3">Loop Table</span> Worksheet in the <span class="span_3">ttXXGLAccounts_XXGLAccounts_</span> <span class="span_3">Loop1_1_Upload</span> table in SQL.</li>
+        </ol>
+        <p class="Body">Modify the <span class="span_3">txXXGLAccounts_XXGLAccounts</span><span class="span_3">_Int</span> view.</p>
+        <p class="Body">To modify the view to format todays date:</p>
+        <ol start="1" class="ol_3">
+            <li class="NumberedList">Open the <span class="span_3">txXXGLAccounts_XXGLAccounts_Int </span>from <span class="span_3">sdbNorthwindXX</span><span class="span_3">,</span> in design view. </li>
+            <li class="NumberedList">Copy <span class="span_3">[ACGL_HEAD-BLDAT]</span>.</li>
+            <li class="NumberedList">Enter <span class="span_3">CONVERT (varchar(10), GETDATE(), 101)</span> in the <span class="span_3">Colum</span> Field.</li>
+            <li class="NumberedList">Paste <span class="span_3">[ACGL_HEAD-BLDAT]</span> in the <span class="span_3">Alias</span> field.</li>
+            <li class="NumberedList">Copy <span class="span_3">[ACGL_HEAD-BUDAT]</span>.</li>
+            <li class="NumberedList">Enter <span class="span_3">CONVERT (varchar(10), GETDATE(), 101)</span> in the <span class="span_3">Colum</span> Field.</li>
+            <li class="NumberedList">Paste <span class="span_3">[ACGL_HEAD-BUDAT]</span> in the <span class="span_3">Alias</span> field.</li>
+            <li class="NumberedList">Click <span class="span_3">Save</span>.</li>
+        </ol>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Update Views in SQL.png" style="height: 573px;width: 624px;" class="img_2" />
+        </p>
+        <p class="Caption">Convert Dates</p>
+    </body>
+</html>

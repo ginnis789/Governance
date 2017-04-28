@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Outline"><a name="_Toc469048468"></a><span class="span_4">8.1 </span>Post the Changes to SAP using BDC Recording</p>
+        <p class="Body">To activate and post changes:</p>
+        <ol start="1" class="ol_3">
+            <li class="NumberedList">Click the <span class="span_3">Browser Back </span>button.</li>
+            <li class="NumberedList">Locate <span class="span_3">XXGLAccounts</span> Process.</li>
+            <li class="NumberedList">Click <span class="span_3">Activat</span><span class="span_3">e/Deactivate </span><span class="span_3"><img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_10.png" style="height: 16px;width: 18px;" class="img_1" /></span> to activate the Process.</li>
+            <li class="NumberedList">Click <span class="span_3">Post</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post Data with a Where Clause.png" style="height: 16px;width: 17px;" class="img_1" />.</li>
+            <li class="NumberedList">Click <span class="span_3">Post</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post Data with a Where Clause.png" style="height: 16px;width: 17px;" class="img_1" /> in the <span class="span_5">Dependen</span><span class="span_5">t</span> pane.</li>
+            <li class="NumberedList">Click <span class="span_3">OK</span>, a message displays.</li>
+        </ol>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post the Changes to SAP using.png" style="height: 130px;width: 364px;" class="img_2" />
+        </p>
+        <ol start="7" class="ol_3">
+            <li class="NumberedList">Click the <span class="span_3">Browser Back</span> button.</li>
+            <li class="NumberedList">Click Messages <span class="span_10"><img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/View Messages.png" style="height: 16px;width: 17px;" class="img_1" /></span>. </li>
+        </ol>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post the Changes to SAP using_1.png" style="height: 131px;width: 691px;" class="img_1" />
+        </p>
+        <ol start="9" class="ol_3">
+            <li class="NumberedList">Make note of the <span class="span_3">Document</span> number.</li>
+            <li class="NumberedList">Return to SQL.</li>
+            <li class="NumberedList">Expand <span class="span_3">dgSAP</span> database.</li>
+            <li class="NumberedList">Edit Top Rows for <span class="span_3">BKPF</span> table.</li>
+            <li class="NumberedList">Press <span class="span_3">Ctrl</span> and <span class="span_3">2</span> on the keyboard to <span class="span_5">Show Criteria</span> Pane. </li>
+            <li class="NumberedList">Enter the <span class="span_3">Document</span> number preceded by <span class="span_3">0</span> in the <span class="span_3">Filter</span> for <span class="span_3">BELNR</span>.</li>
+            <li class="NumberedList">Enter todays date in this format, <span class="span_3">YYYYMMDD</span>, in the <span class="span_3">Filter</span> for <span class="span_3">BLDAT</span>.</li>
+            <li class="NumberedList">Execute to view the record posted.</li>
+        </ol>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post the Changes to SAP using_2.png" style="height: 174px;width: 624px;" class="img_2" />
+        </p>
+        <p class="Caption">Posted Record</p>
+    </body>
+</html>

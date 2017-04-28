@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2017-04-28T10:06:02.0481018-05:00"
+  ProjectName="Governance"
+  ProjectFolder="C:\Users\admin\Documents\My Projects"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  LastImport="2017-04-28T10:07:09.0954946-05:00">
+  <Files>
+    <Url
+      Source="../../../../../Desktop/Integrate/Integrate Product Training (6.6) VP_GM (04-18-2017).docx"
+      AbsoluteSource="file:///C:/Users/admin/Desktop/Integrate/Integrate Product Training (6.6) VP_GM (04-18-2017).docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Integrate Product Training (6.6) VP_GM (04-18-2017).jpg"
+      TimeStamp="4/28/2017 10:06:02 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Integrate Product Training (6.6) VP_GM (04-18-2017).png"
+      TimeStamp="4/28/2017 10:06:02 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Integrate Product Training (6.6) VP_GM (04-18-2017).htm"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Table of Contents.htm"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post Using BDC Recording.htm"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Category.png"
+      TimeStamp="4/28/2017 10:06:03 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Category.htm"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script.png"
+      TimeStamp="4/28/2017 10:06:03 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_1.png"
+      TimeStamp="4/28/2017 10:06:03 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_2.png"
+      TimeStamp="4/28/2017 10:06:03 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_3.png"
+      TimeStamp="4/28/2017 10:06:03 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_4.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_5.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_6.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_7.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_8.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_9.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_10.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_11.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script.htm"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process_1.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process_2.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process_3.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process.htm"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post New Materials.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post New Materials.htm"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/View Messages.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/View Messages_1.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/View Messages_2.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/View Messages.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Verify Data Posted to SAP.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Verify Data Posted to SAP_1.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Verify Data Posted to SAP.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create New Materials.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Self Directed Add a Process.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Field Mappings.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Field Mappings_1.png"
+      TimeStamp="4/28/2017 10:06:04 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Field Mappings.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Self Directed Exercise Post.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Refresh Collect.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Material Change.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Template to Change.png"
+      TimeStamp="4/28/2017 10:06:05 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Template to Change.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Self Directed Exercise Create.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post Data with a Where Clause.png"
+      TimeStamp="4/28/2017 10:06:05 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post Data with a Where Clause_1.png"
+      TimeStamp="4/28/2017 10:06:05 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post Data with a Where Clause_2.png"
+      TimeStamp="4/28/2017 10:06:05 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post Data with a Where Clause.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Review changes in SAP.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create Material Change by.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a SHDB Recording.png"
+      TimeStamp="4/28/2017 10:06:05 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a SHDB Recording.jpg"
+      TimeStamp="4/28/2017 10:06:05 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a SHDB Recording.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Template.png"
+      TimeStamp="4/28/2017 10:06:05 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Template_1.png"
+      TimeStamp="4/28/2017 10:06:05 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Template.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Self Directed Create a Process.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Copy Template and Transaction.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Copy a Template.png"
+      TimeStamp="4/28/2017 10:06:06 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Copy a Template_1.png"
+      TimeStamp="4/28/2017 10:06:06 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Copy a Template_2.png"
+      TimeStamp="4/28/2017 10:06:06 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Copy a Template_3.png"
+      TimeStamp="4/28/2017 10:06:06 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Copy a Template.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process with Multiple.png"
+      TimeStamp="4/28/2017 10:06:06 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process with Multiple.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Transaction Stringing.png"
+      TimeStamp="4/28/2017 10:06:06 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Transaction Stringing_1.png"
+      TimeStamp="4/28/2017 10:06:06 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Transaction Stringing_2.png"
+      TimeStamp="4/28/2017 10:06:06 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Transaction Stringing.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Self Directed Exercise Post_1.png"
+      TimeStamp="4/28/2017 10:06:06 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Self Directed Exercise Post_1.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Troubleshooting BDC Posting.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Self Directed Copy a Template.png"
+      TimeStamp="4/28/2017 10:06:06 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Self Directed Copy a Template_1.png"
+      TimeStamp="4/28/2017 10:06:06 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Self Directed Copy a Template.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post the Materials using BOA.png"
+      TimeStamp="4/28/2017 10:06:07 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post the Materials using BOA.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Run SM35 Session.png"
+      TimeStamp="4/28/2017 10:06:07 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Run SM35 Session_1.png"
+      TimeStamp="4/28/2017 10:06:07 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Run SM35 Session_2.png"
+      TimeStamp="4/28/2017 10:06:07 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Run SM35 Session_3.png"
+      TimeStamp="4/28/2017 10:06:07 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Run SM35 Session_4.png"
+      TimeStamp="4/28/2017 10:06:07 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Run SM35 Session.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Modify Template.png"
+      TimeStamp="4/28/2017 10:06:07 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Modify Template_1.png"
+      TimeStamp="4/28/2017 10:06:07 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Modify Template_2.png"
+      TimeStamp="4/28/2017 10:06:07 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Modify Template_3.png"
+      TimeStamp="4/28/2017 10:06:07 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Modify Template.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Self Directed Change Posting.htm"
+      TimeStamp="4/28/2017 10:06:10 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Template with BDC.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Template_1.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure the Template to.png"
+      TimeStamp="4/28/2017 10:06:07 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure the Template to_1.png"
+      TimeStamp="4/28/2017 10:06:07 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure the Template to.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Add a Process to the Category.png"
+      TimeStamp="4/28/2017 10:06:08 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Add a Process to the Category_1.png"
+      TimeStamp="4/28/2017 10:06:08 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Add a Process to the Category.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Update Views in SQL.png"
+      TimeStamp="4/28/2017 10:06:08 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Update Views in SQL.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/E Map Fields.png"
+      TimeStamp="4/28/2017 10:06:08 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/E Map Fields.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/After Template Post Rules.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Register a Collect Download.png"
+      TimeStamp="4/28/2017 10:06:08 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Register a Collect Download.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post the Changes to SAP using.png"
+      TimeStamp="4/28/2017 10:06:08 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post the Changes to SAP using_1.png"
+      TimeStamp="4/28/2017 10:06:08 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post the Changes to SAP using_2.png"
+      TimeStamp="4/28/2017 10:06:08 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post the Changes to SAP using.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Add a Conditional to a Template.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Self Directed Copy a Template_1.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure the Conditional.png"
+      TimeStamp="4/28/2017 10:06:08 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure the Conditional.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Self Directed Create a Process_1.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post Using a BAPI.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Template Using a.png"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Template Using a_1.png"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Template Using a_2.png"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Template Using a_3.png"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Template Using a_4.png"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Template Using a_5.png"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Template Using a_6.png"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Template Using a_7.png"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Template Using a.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process_1.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure BAPI Loops.png"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure BAPI Loops.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Relationships.png"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Relationships_1.png"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Relationships.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure the Upload Table.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../../Content/Integrate Product Training (6.6) VP_GM (04-18-2017)/Self Directed Post the Process.htm"
+      TimeStamp="4/28/2017 10:06:11 AM" />
+    <Url
+      Source="../TOCs/Integrate Product Training (6.6) VP_GM (04-18-2017).fltoc"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Resources/MasterPages/Integrate Product Training (6.6) VP_GM (04-18-2017).flmsp"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css"
+      TimeStamp="4/28/2017 10:06:09 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+    <Map
+      From="Heading 5"
+      To="h5.Heading 5" />
+    <Map
+      From="Heading 6"
+      To="h6.Heading 6" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Exercise" />
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Outline" />
+    <StyleName
+      Name="Product Name" />
+    <StyleName
+      Name="TOC Heading" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="[Basic Paragraph]" />
+    <StyleName
+      Name="Body" />
+    <StyleName
+      Name="Bullet Table" />
+    <StyleName
+      Name="Caption" />
+    <StyleName
+      Name="Comment Text" />
+    <StyleName
+      Name="Document Title" />
+    <StyleName
+      Name="Exercise" />
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Indent Bullet" />
+    <StyleName
+      Name="List Bullet" />
+    <StyleName
+      Name="List Number" />
+    <StyleName
+      Name="Note" />
+    <StyleName
+      Name="NOTE" />
+    <StyleName
+      Name="Numbered List" />
+    <StyleName
+      Name="Other Title" />
+    <StyleName
+      Name="Outline" />
+    <StyleName
+      Name="Product Name" />
+    <StyleName
+      Name="Release Date" />
+    <StyleName
+      Name="Screen Shot" />
+    <StyleName
+      Name="Table Column" />
+    <StyleName
+      Name="Table Text" />
+    <StyleName
+      Name="TOC 1" />
+    <StyleName
+      Name="TOC 2" />
+    <StyleName
+      Name="TOC Heading" />
+    <StyleName
+      Name="Version Number" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="Comment Reference" />
+    <StyleName
+      Name="Body Char" />
+  </UsedCharacterStyles>
+</MsWordImport>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Outline"><a name="_Toc469048434"></a><span class="span_4">1.3 </span>Post New Materials</p>
+        <p class="Body">A Post Process record is automatically created for the process once activated. Multiple Post Process records can be configured for a single process, with each process post record having different post settings. </p>
+        <p class="Body">There are two ways to post data to SAP:</p>
+        <ul class="ul_1">
+            <li class="ListBullet_1"><span class="span_3">Post</span> – Immediately posts data in the foreground and prompts for Back End Authentication. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1"><span class="span_3">Background Post</span> – Schedules a post to run at a later date and time, and in the background. There are two primary reasons to post in the background:</li>
+        </ul>
+        <ul class="ul_2">
+            <li class="IndentBullet_1">There is too much data to post in the foreground without timing out the session. </li>
+        </ul>
+        <ul class="ul_2">
+            <li class="IndentBullet_1">To avoid putting too much stress on the system. </li>
+        </ul>
+        <p class="Note"><span class="span_3">NOTE:</span>Once the Process is ready to post, it needs to be activated. If any changes need to be made it must be deactivated.</p>
+        <p class="Body">To activate and post the new materials: </p>
+        <ol start="1" class="ol_2">
+            <li class="NumberedList">Click <span class="span_3">Post</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post New Materials.png" style="height: 16px;width: 17px;" class="img_1" /> on the <span class="span_5">Process</span> page for the process, the Process Post displays in the <span class="span_5">Dependent</span> pane.</li>
+        </ol>
+        <ol start="2" class="ol_2">
+            <li class="NumberedList">Click <span class="span_3">Post</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post New Materials.png" style="height: 16px;width: 17px;" class="img_1" /> on the <span class="span_5">Process Post</span> page in the <span class="span_5">Dependent</span> pane, a message displays.</li>
+        </ol>
+        <ol start="3" class="ol_2">
+            <li class="NumberedList">Click the <span class="span_3">O</span><span class="span_3">K</span> button.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>If the session is still active from the previous SAP access, SAP credentials are not required to be entered. </p>
+        <p class="Note"><span class="span_3">NOTE:</span>A green message displays in the upper right corner indicating 10 records were posted successfully. This does not necessarily mean all records actually posted, it indicates the post successfully connected to SAP. To verify the success of a post view messages, go to Monitor post.</p>
+    </body>
+</html>

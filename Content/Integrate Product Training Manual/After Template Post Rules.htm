@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Exercise_1"><a name="_Toc469048466"></a><span class="span_4">Exercise 8 -  </span>After Template Post Rules</p>
+        <p class="Body">Rules pull data from a target or source to refresh local data after it has been changed, or to manipulate the local data to prepare for the next process template to execute. </p>
+        <p class="Body">When posting data to a target system, a Template Administrator can register an <span class="span_3">After Post Rule</span> to a process template. The rule runs after the process template executes successfully, and before the next process template begins processing (if posting with a multi-template process).</p>
+        <p class="Body">The following can be registered as an <span class="span_3">After Post Rule</span>:</p>
+        <ul class="ul_1">
+            <li class="ListBullet_1"><span class="span_3">Business Rule</span> – A stored procedure that may take a variable of @PostingID GUID. If this property exists, then the posting ID of the posting passes to the procedure. When a business rule <span class="span_3">After Post Rule</span> is encountered, Integrate runs the rule and waits for it to complete before running the next rule. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1"><span class="span_3">Collect Download</span> – A Collect rule that downloads a Collect source – target – table registration. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1"><span class="span_3">Status View</span> – A view used to communicate the status of the posting to the user. The view status is “<span class="span_5">pass</span>” when there are no records in the view for the PostingID. The view status is “<span class="span_5">fail</span>” if the view contains at least one record of data for the PostingID. If the status is “<span class="span_5">fail</span>”, then that status is written as the status for the posting of that template. </li>
+        </ul>
+        <p class="Note"><span class="span_3">NOTE:</span>It is possible to register a Business Rule as an <span class="span_3">After Post Rule</span> to update Collect Where clause settings for the individual posting ID, as well as to write data to tables that can be used by the Status View. By using the three types of <span class="span_3">After Post Rules</span> together in a process template, an advanced user can configure a complex posting and download scenario. </p>
+        <p><span class="span_11">When a process template with an </span><span class="span_12">After Post Rule</span><span class="span_11"> registered posts successfully, the data is passed to the next </span><span class="span_13">Dependent</span><span class="span_11"> template process as an input parameter.</span> <span class="span_11">For example, a user can configure a process with multiple templates that creates a material and extends the material to different plants. The first template creates a material number and contains a stored procedure </span><span class="span_12">After Post Rule</span><span class="span_11"> that captures the material number and uses it as an input parameter to the next template.</span> <span class="span_11">The next template uses the material number parameter created by the first template to extend the material number to different plants.</span></p>
+        <p class="Note"><span class="span_3">NOTE</span><span class="span_3">:</span>The <span class="span_3">After Post Rules</span> do not run when the process causes a validation to fail. The rules do run if there are posting errors (i.e., a record does not post to the target system because there are errors in the data).</p>
+        <p class="Note_4">&#160;</p>
+        <p class="Note"><span class="span_3">NOTE</span><span class="span_3">:</span>The execution order for both process templates and <span class="span_3">After Post Rules</span> is determined by the priority. Set the priority for process templates on the <span class="span_5">Process Templates</span> page. Set the priority for <span class="span_3">After Post Rules</span> on the <span class="span_5">Process Templates: After Post Rules </span>page. </p>
+        <p class="Body">&#160;</p>
+        <p class="Note"><span class="span_3">NOTE</span><span class="span_3">:</span>Each process template can have one or many <span class="span_3">After Post Rules</span> registered. </p>
+        <p class="Note_4">&#160;</p>
+        <p class="Note"><span class="span_3">NOTE</span><span class="span_3">:</span>The process template must be inactive to add <span class="span_3">After Post Rules</span>.</p>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Outline"><a name="_Toc469048452"></a><span class="span_4">5.1 </span>Create a Process with Multiple Templates</p>
+        <p class="Body">Create a process and add the <span class="span_3">XXMaterials_JDE</span> and the copied <span class="span_3">XXExtend</span> template.</p>
+        <p class="Body">To create a process with multiple templates:</p>
+        <ol start="1" class="ol_3">
+            <li class="NumberedList">Click the <span class="span_3">Browser Back</span> button.</li>
+            <li class="NumberedList">Click <span class="span_3">Processes</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process.png" style="height: 16px;width: 18px;" class="img_1" />.</li>
+            <li class="NumberedList">Click the<span class="span_3"> Add</span> button.</li>
+            <li class="NumberedList">Enter <span class="span_3">5</span><span class="span_3">0</span> in <span class="span_3">Priority</span> field.</li>
+            <li class="NumberedList">Enter <span class="span_3">XXCreateAndExtend</span> in <span class="span_3">Name</span> field.</li>
+            <li class="NumberedList">Enter <span class="span_3">Create</span> <span class="span_3">and Extend Materials</span> in <span class="span_3">Description</span> field.</li>
+            <li class="NumberedList">Select <span class="span_3">XXMaterial_JDE</span> from <span class="span_3">Template</span> <span class="span_3">ID</span> list box.</li>
+            <li class="NumberedList">Select <span class="span_3">sdbNorthwindXX</span> from <span class="span_3">Data Source ID</span> list box.</li>
+            <li class="NumberedList">Select <span class="span_3">txStringingFinishedMaterialsInt</span> from <span class="span_3">View Name</span> list box.</li>
+            <li class="NumberedList">Click <span class="span_3">Advanced</span> <span class="span_3">Properties</span> tab.</li>
+            <li class="NumberedList">Select <span class="span_3">Synchronous</span> from <span class="span_3">Post Execution Method</span> list box.</li>
+            <li class="NumberedList">Enter <span class="span_3">2</span> in <span class="span_3">Delay Between Templates</span> field.</li>
+            <li class="NumberedList">Enter <span class="span_3">250</span> in <span class="span_3">Delay Between Records</span> field.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>A process that uses the Asynchronous post execution method, the option that is selected by default, executes the post for each template sequentially without waiting for the template post to return before executing the next template post. Asynchronous posting may result in locking, especially when posting a combination of GUI and BDC templates in the same process. A process that uses the Synchronous post execution method executes the post for each template, but waits for the post to return before executing the next post. Synchronous is a slower execution method but prevents most recording locking situations and is necessary for processes with multiple templates.</p>
+        <ol start="14" class="ol_3">
+            <li class="NumberedList">Click the <span class="span_3">Save</span> button.</li>
+            <li class="NumberedList">Close the<span class="span_5"> V</span><span class="span_5">ertical</span> View.</li>
+            <li class="NumberedList">Locate <span class="span_3">XXCreateAndExtend</span> Process.</li>
+            <li class="NumberedList">Click <span class="span_3">Templates</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Copy a Template.png" style="height: 16px;width: 17px;" class="img_1" />, the template displays in the <span class="span_5">Dependent </span>pane.</li>
+            <li class="NumberedList">Click the<span class="span_3"> Add</span> button in the <span class="span_5">Dependent </span>pane.</li>
+            <li class="NumberedList">Enter <span class="span_3">20</span> in the <span class="span_3">Priority</span> field.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>Set the priority order of the templates in the order they should be processed using transaction stringing. Templates are processed in ascending priority order. A template with a low priority is processed before a template with a high priority.</p>
+        <ol start="20" class="ol_3">
+            <li class="NumberedList">Select <span class="span_3">XXExtend</span><span class="span_3">ToPlant</span> from <span class="span_3">Template ID</span> list box.</li>
+            <li class="NumberedList">Click the <span class="span_3">Save</span> button, the <span class="span_5">Process Template</span><span class="span_5"> Loop</span> and the <span class="span_5">Process Template Loop Field Mappings</span> pages display.</li>
+            <li class="NumberedList">Click the <span class="span_3">Browser Back</span> button.</li>
+            <li class="NumberedList">Click <span class="span_3">Allowed Connections</span> <span class="span_10"><img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process with Multiple.png" style="height: 16px;width: 16px;" class="img_1" /></span> for the <span class="span_3">XXExtendToPlant</span>.</li>
+            <li class="NumberedList">Select <span class="span_3">SAP</span> from the <span class="span_3">Connection</span> <span class="span_3">ID</span> list box. </li>
+            <li class="NumberedList">Click the <span class="span_3">Save</span> button.</li>
+            <li class="NumberedList">Click the <span class="span_3">Browser Back </span>button. </li>
+            <li class="NumberedList">Click <span class="span_3">Loops</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Field Mappings.png" style="height: 16px;width: 16px;" class="img_1" /> for the <span class="span_3">XXMaterials_JDE</span>.</li>
+            <li class="NumberedList">Click the <span class="span_3">Edit</span> button in the <span class="span_5">P</span><span class="span_5">arent</span> pane.</li>
+            <li class="NumberedList">Select <span class="span_3">BISMT</span> from <span class="span_3">Primary Key Column Name</span> list box.</li>
+            <li class="NumberedList">Click the <span class="span_3">Save</span> button.</li>
+            <li class="NumberedList">Click the <span class="span_3">Browser Back</span> button.</li>
+            <li class="NumberedList">Click <span class="span_3">Loops</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Field Mappings.png" style="height: 16px;width: 16px;" class="img_1" /> in the <span class="span_5">Dependent</span> pane for the <span class="span_3">XXExtendToPlant</span>.</li>
+            <li class="NumberedList">Click the <span class="span_3">Edit</span> button in the <span class="span_5">P</span><span class="span_5">arent</span> pane.</li>
+            <li class="NumberedList">Select <span class="span_3">BISMT</span> from <span class="span_3">Primary Key Column Name</span> list box.</li>
+            <li class="NumberedList">Click the <span class="span_3">Save</span> button.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>The fields are automatically mapped.</p>
+        <ol start="37" class="ol_3">
+            <li class="NumberedList">Click the <span class="span_3">Browser Back</span> button.</li>
+        </ol>
+    </body>
+</html>

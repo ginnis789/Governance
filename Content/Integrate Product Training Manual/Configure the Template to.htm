@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Outline"><a name="_Toc469048462"></a><span class="span_4">7.1 </span>Configure the Template to Loop</p>
+        <p class="Body">Looping is a posting mechanism that processes multiple child keys for one parent key. It allows for multiple headers with infinite details to be posted. Looping can be enabled during template creation or after recording. </p>
+        <p class="Note"><span class="span_3">NOTE</span>:When a template is added to a process, one loop is automatically created, regardless if looping is enabled. Technically, every template has at least a loop of one header. </p>
+        <p class="Body">When a template that uses loops is added to a process, each loop in the template becomes a process template loop. Looping is necessary when data in the same field at the detail level should be updated for multiple header records. For example, to enter data for the Export Legal Control for a Material, a template would need to generate one transaction with multiple screens to update the export control class for each country. </p>
+        <p class="Body">Looping is not necessary when a change in data is made at the header level as is the case when changing a Material Description. </p>
+        <p class="Body">An example of when looping is necessary is when an Accounting Document is created. </p>
+        <p class="Body">To create a loop, create a GL Account with multiple Components to update. Depending on the GL Account, it can have several components or just a single component.</p>
+        <p class="Body">When a template is added to a process, one loop is automatically created, regardless if looping is enabled. Technically, every template has at least a loop of one header. </p>
+        <p class="Body">Create a view for each loop level to represent the data at that level. It is good database design practice to divide data that should be kept separate into different export views. </p>
+        <p class="Body">To configure the Template to Loop:</p>
+        <ol start="1" class="ol_2">
+            <li class="NumberedList">Click on the <span class="span_3">Configuration</span> tab. </li>
+        </ol>
+        <ol start="2" class="ol_2">
+            <li class="NumberedList">Click <span class="span_3">Enable Loop</span> check box to enable.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE</span>:Once this check box is enabled, BDC Screens can be put into and taken out of loops. Looping is a posting mechanism that processes multiple child keys for one parent key. It allows for multiple headers with infinite details to be posted. Looping can be enabled during template creation or after recording. </p>
+        <ol start="3" class="ol_2">
+            <li class="NumberedList">Click <span class="span_3">BDC Screen</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_6.png" style="height: 16px;width: 16px;" class="img_1" />.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>It is good practice when creating looping to do the loop sequence twice in exactly the same manner as the first. This will help recognize the pattern when modifying the template to perform the loop. Once the component moves to the bottom add another.</p>
+        <ol start="4" class="ol_2">
+            <li class="NumberedList">Delete <span class="span_3">Priority 20</span> row in the <span class="span_5">P</span><span class="span_5">arent</span> pane.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>The repetition in adding the two components illustrates exactly where the loop should be. Modify the first line and delete the second one. Click the <span class="span_5">V</span><span class="span_3">ertical View</span> <span class="span_8"><img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_5.png" style="height: 16px;width: 16px;" class="img_1" /></span> to view the VB Script Line information for more detail on the action that was performed for each priority.</p>
+        <ol start="5" class="ol_2">
+            <li class="NumberedList">Click <span class="span_3">Loop Plus</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure the Template to.png" style="height: 16px;width: 15px;" class="img_1" /> to move Priority <span class="span_3">30</span> to Loop1.1.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE</span>: The Loop Plus and Loop Minus buttons on the <span class="span_5">BDC Screen </span>and the <span class="span_5">GUI Script Data </span>pages move the hierarchy of data by increasing/decreasing the loop level. </p>
+        <p class="Note_4">&#160;</p>
+        <p class="Note"><span class="span_3">NOTE</span>:Increasing the hierarchy of the tasks 30-50 captures the screen movements needed to enter in 1 account, and insert a new line item for the next account to be entered. This allows multiple accounts to be entered for the single document. <span class="span_5">The Priority values may differ based on how the template was recorded.</span></p>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure the Template to_1.png" style="height: 161px;width: 624px;" class="img_2" />
+        </p>
+        <p class="Caption">Configuration of the Loop Template</p>
+        <ol start="6" class="ol_2">
+            <li class="NumberedList">Click the <span class="span_3">Browser Back </span>button.</li>
+        </ol>
+        <ol start="7" class="ol_2">
+            <li class="NumberedList">Close the <span class="span_5">Vertical</span> <span class="span_5">View</span>.</li>
+        </ol>
+        <ol start="8" class="ol_2">
+            <li class="NumberedList">Locate <span class="span_3">XXGLAccounts</span> template.</li>
+        </ol>
+        <ol start="9" class="ol_2">
+            <li class="NumberedList">Click <span class="span_3">Activate</span><span class="span_3">/Deactivate</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_10.png" style="height: 16px;width: 18px;" class="img_1" />, to activate the Template.</li>
+        </ol>
+        <ol start="10" class="ol_2">
+            <li class="NumberedList">Click the <span class="span_3">OK</span> button.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE</span>:Activating or deactivating a template uses Back End Authentication to retrieve template metadata from SAP, if necessary. </p>
+    </body>
+</html>

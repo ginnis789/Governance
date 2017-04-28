@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Outline"><a name="_Toc469048459"></a><span class="span_4">6.3 </span>Modify Template</p>
+        <p class="Body">The template created, in Exercise 6.0, is missing a field required in SAP to post successfully. Modify the template to add the <span class="span_3">MG03STEUER</span><span class="span_3">-TAXKM </span>field to screen number 4200. The template then will contain all necessary fields to successfully extend semi-finished materials to an existing plant.</p>
+        <p class="Body">To modify a template:</p>
+        <ol start="1" class="ol_3">
+            <li class="NumberedList">Click <span class="span_3">Categories</span> on the <span class="span_5">Navigation</span> pane.</li>
+            <li class="NumberedList">Locate <span class="span_3">TrainingXX</span> Category.</li>
+        </ol>
+        <ol start="1" class="ol_3">
+            <li class="NumberedList"> Click <span class="span_3">Templates</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Copy a Template.png" style="height: 16px;width: 17px;" class="img_1" />.</li>
+        </ol>
+        <ol start="2" class="ol_3">
+            <li class="NumberedList">Locate <span class="span_3">XXExtendToOrgUnit</span><span class="span_3">s</span> Template.</li>
+            <li class="NumberedList">Click <span class="span_3">Process</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process.png" style="height: 16px;width: 18px;" class="img_1" /> for the Template.</li>
+            <li class="NumberedList">Click <span class="span_3">Deactivate All</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Modify Template.png" style="height: 16px;width: 16px;" class="img_1" /> , a message displays.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>The <span class="span_3">Deactivate</span><span class="span_3"> All</span> icon deactivates the status of all processes associated with the template as well as the template. </p>
+        <ol start="5" class="ol_3">
+            <li class="NumberedList">Click the <span class="span_3">Ok </span>button.</li>
+            <li class="NumberedList">Click the <span class="span_3">Browser Back</span> button.</li>
+            <li class="NumberedList">Click <span class="span_3">Vertical View</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_5.png" style="height: 16px;width: 16px;" class="img_1" />.</li>
+            <li class="NumberedList">Click <span class="span_3">Configuration</span> tab.</li>
+            <li class="NumberedList">Click <span class="span_3">BDC Screen</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_6.png" style="height: 16px;width: 16px;" class="img_1" />.</li>
+            <li class="NumberedList">Highlight <span class="span_3">Priority</span> <span class="span_3">50</span><span class="span_3"> Screen-Program 4</span><span class="span_3">2</span><span class="span_3">00 – SAPLMGMM</span> in the <span class="span_5">BDC Screen</span> pane, the fields display in the <span class="span_5">Dependent </span>pane.</li>
+        </ol>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Modify Template_1.png" style="height: 316px;width: 624px;" class="img_2" />
+        </p>
+        <p class="Caption">BDC Screens</p>
+        <ol start="11" class="ol_3">
+            <li class="NumberedList">Click the<span class="span_3"> Add</span> button in the <span class="span_5">Dependent </span>pane.</li>
+            <li class="NumberedList">Enter <span class="span_3">60</span> in <span class="span_3">Priority</span> field.</li>
+            <li class="NumberedList">Enter <span class="span_3">MG03STEUER</span><span class="span_3">-TAXKM(03) </span>in <span class="span_3">Field Name</span> field.</li>
+            <li class="NumberedList">Enter <span class="span_3">1</span> in the <span class="span_3">Field Value</span> field.</li>
+            <li class="NumberedList">Click the <span class="span_3">Save</span> button.</li>
+        </ol>
+        <p class="ScreenShot">&#160;</p>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Modify Template_2.png" style="height: 544px;width: 624px;" class="img_2" />
+        </p>
+        <p class="Caption">BDC Screen Fields</p>
+        <ol start="16" class="ol_3">
+            <li class="NumberedList">Click the <span class="span_3">Browser</span> <span class="span_3">Back </span>button.</li>
+            <li class="NumberedList">Close the <span class="span_5">Vertical</span> View.</li>
+            <li class="NumberedList">Click <span class="span_3">Activate</span><span class="span_3">/Deactivate</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_10.png" style="height: 16px;width: 18px;" class="img_1" /> for the Template to activate.</li>
+            <li class="NumberedList">Click the <span class="span_3">O</span><span class="span_3">K</span> button.</li>
+            <li class="NumberedList">Click the <span class="span_3">Browser</span> <span class="span_3">Back </span>button.</li>
+            <li class="NumberedList">Click <span class="span_3">Processes</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process.png" style="height: 16px;width: 18px;" class="img_1" />.</li>
+            <li class="NumberedList">Locate the <span class="span_3">XXExtendToOrgUnits</span> rocess.</li>
+            <li class="NumberedList">Click <span class="span_3">Loops</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Field Mappings.png" style="height: 16px;width: 16px;" class="img_1" /> in <span class="span_5">Dependent </span>pane for the Process.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span><span class="span_3">MG03STEUER-TAXKM </span>should be mapped in the Template. If it is not, edit the record and select TAXKM from the <span class="span_3">Mapping Value</span> list box.</p>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Modify Template_3.png" style="height: 243px;width: 692px;" class="img_2" />
+        </p>
+        <p class="Caption">Mapped Field</p>
+        <ol start="24" class="ol_3">
+            <li class="NumberedList">Click the <span class="span_3">Browser Back</span> button.</li>
+            <li class="NumberedList">Click <span class="span_3">Activate</span><span class="span_3">/Deactivate</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_10.png" style="height: 16px;width: 18px;" class="img_1" /> for the Process to activate.</li>
+            <li class="NumberedList">Click the <span class="span_3">OK</span> button.</li>
+            <li class="NumberedList">Click <span class="span_3">Post</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post Data with a Where Clause.png" style="height: 16px;width: 17px;" class="img_1" /> for the <span class="span_3">XX</span><span class="span_3">ExtendTo</span><span class="span_3">OrgUnits </span>Process.</li>
+            <li class="NumberedList">Click <span class="span_3">Post</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post Data with a Where Clause.png" style="height: 16px;width: 17px;" class="img_1" /> for the Process Post in the <span class="span_5">Dependent</span> pane.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>Message returns that all records extended successfully, however, the BOASessionCreate BDC Posting Method is still selected on the Process Post. A new SM35 session was created to test the accuracy of the Template.</p>
+        <ol start="29" class="ol_3">
+            <li class="NumberedList">Click <span class="span_3">OK</span> <span class="span_3"><img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_3.png" style="height: 14px;width: 16px;" class="img_1" /></span>.</li>
+        </ol>
+    </body>
+</html>

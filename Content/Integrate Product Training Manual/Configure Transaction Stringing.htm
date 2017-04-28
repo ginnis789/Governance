@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Outline"><a name="_Toc469048453"></a><span class="span_4">5.2 </span>Configure Transaction Stringing</p>
+        <p class="Body">The child template, which is the <span class="span_3">XXExtend</span><span class="span_3">,</span> will receive the Return Value from the Parent Template; the <span class="span_3">XXMaterials_JDE</span> template.</p>
+        <p class="ListNumber_1">To configure Transaction Stringing:</p>
+        <ol start="1" class="ol_3">
+            <li class="NumberedList">Click <span class="span_3">Loops</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Field Mappings.png" style="height: 16px;width: 16px;" class="img_1" /> for the <span class="span_3">XXExtendToPlant</span>.</li>
+            <li class="NumberedList">Locate <span class="span_3">RMMG1-MATNR</span> in the <span class="span_5">Dependent</span> pane.</li>
+        </ol>
+        <p class="NOTE_3"><span class="span_3">NOTE:</span>This field will use the Return Value from the Parent Template.</p>
+        <ol start="3" class="ol_3">
+            <li class="NumberedList">Click <span class="span_3">Edit</span> <span class="span_8"><img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Transaction Stringing.png" style="height: 16px;width: 16px;" class="img_1" /></span> <![CDATA[ ]]></li>
+            <li class="NumberedList">Select <span class="span_3">[None] </span>from <span class="span_3">Mapping</span> <span class="span_3">Value</span> list box.</li>
+            <li class="NumberedList">Click the <span class="span_3">Save</span> button.</li>
+            <li class="NumberedList">Click <span class="span_3">Vertical View</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_5.png" style="height: 16px;width: 16px;" class="img_1" /> for <span class="span_3">RMMG1-MATNR</span>.</li>
+            <li class="NumberedList">Click the <span class="span_3">Edit</span> button.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE</span>:A field cannot contain both a <span class="span_3">Mapping Value</span> and a <span class="span_3">Return Value</span>. It either has to have a value supplied from the view, or a Return Value supplied from the Parent Template.</p>
+        <ol start="8" class="ol_3">
+            <li class="NumberedList">Select <span class="span_3">XXMaterial</span><span class="span_3">s</span><span class="span_3">_JDE</span> from <span class="span_3">Return Value Template ID</span> list box.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE</span>:The <span class="span_3">Return Value Template ID</span> is the <span class="span_3">Template ID</span> of a lower priority that will be executed before the current Template.</p>
+        <ol start="9" class="ol_3">
+            <li class="NumberedList">Select <span class="span_3">Return Value 1</span> from <span class="span_3">Return Value</span> list box. </li>
+            <li class="NumberedList">Click the <span class="span_3">Save</span> button.</li>
+        </ol>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Transaction Stringing_1.png" style="height: 240px;width: 453px;" class="img_2" />
+        </p>
+        <p class="Caption">Transaction Stringing</p>
+        <p class="Note"><span class="span_3">NOTE:</span>The Return Value column contains the data to pass to the current Template Field. SAP returns up to 4 return values for each posting and the return values differ for each transaction code. The return values make up the dynamic part of the message that is displayed to the user in the status bar after saving the record. </p>
+        <p class="NOTE_3">For example: </p>
+        <p class="NOTE_3">&#160; </p>
+        <p class="NOTE_3">MM01: Message displayed “Material <span class="span_3">101</span> created successfully”</p>
+        <p class="NOTE_3">Return Value 1: 101 = Material Number</p>
+        <p class="NOTE_3">FB50: Message displayed “Document <span class="span_3">123235</span> was posted in company code <span class="span_3">0001</span>”</p>
+        <p class="NOTE_3">Return Value 1: 123235 = Document Number</p>
+        <p class="NOTE_3">Return Value 2: 0001 = Company Code</p>
+        <p class="Note"><span class="span_3">NOTE:</span>In order to determine the Return Values, it is recommended that the transaction used by the Template be executed manually in SAP and the status bar monitored in order to determine which return values are passed back via SAP.</p>
+        <ol start="11" class="ol_3">
+            <li class="NumberedList">Close the <span class="span_5">Vertical</span> View.</li>
+            <li class="NumberedList">Verify <span class="span_3">Using Return Value</span> <span class="span_3">(RV)</span> field is checked.</li>
+        </ol>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Transaction Stringing_2.png" style="height: 196px;width: 499px;" class="img_2" />
+        </p>
+        <p class="Caption">Return Value</p>
+    </body>
+</html>

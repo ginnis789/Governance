@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Outline"><a name="_Toc469048439"></a><span class="span_4">2.1 </span>Configure Field Mappings</p>
+        <p class="Body">If the fields in the view are named with valid SAP fields, Integrate completes the mapping automatically based on the fields in the recording. If it cannot recognize the field names, the fields have to be mapped manually.</p>
+        <p class="Body">Process template loop field mappings provide the link between a field on a template and on a database view. Each unique field on the template can be mapped to either a field in the database view or assigned to a fixed value. If there is no mapping or fixed value, then the fields are not mapped and will be ignored in the posting.</p>
+        <p class="Body">Map the fields in the <span class="span_5">txSemiFinishedMaterials_JDEInt </span>view to the correct SAP fields. </p>
+        <p class="Body">To map the fields:</p>
+        <ol start="1" class="ol_3">
+            <li class="NumberedList">Click <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_9.png" style="height: 16px;width: 16px;" class="img_1" /> to close the <span class="span_5">Vertical</span> View.</li>
+            <li class="NumberedList">Locate <span class="span_3">XXSemiFinished_JDE</span>.</li>
+            <li class="NumberedList">Click <span class="span_3">Templates</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script.png" style="height: 16px;width: 16px;" class="img_1" /> for the Process.</li>
+            <li class="NumberedList">Click <span class="span_3">Loops</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Field Mappings.png" style="height: 16px;width: 16px;" class="img_1" /> for the Process Template in the <span class="span_5">Dependent</span> pane.</li>
+            <li class="NumberedList">Click the <span class="span_3">Edit</span> button in the <span class="span_5">P</span><span class="span_5">arent</span> pane.</li>
+            <li class="NumberedList">Select <span class="span_3">Old</span> <span class="span_3">Material</span> <span class="span_3">Number</span> from Primary Key Column Name list box.</li>
+            <li class="NumberedList">Click the <span class="span_3">Save</span> button.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>The <span class="span_5">Process Template Loop Field Mappings</span> page displays either to the left or at the bottom of the screen. To change the location, click the reposition icon to change the position of the field mappings. All the fields associated with the template recording display in Template Field Unique Name column. The template fields need to correctly be mapped to the fields in the view.</p>
+        <ol start="8" class="ol_3">
+            <li class="NumberedList">Highlight all the records in the <span class="span_5">Dependent</span> pane.</li>
+            <li class="NumberedList">Click the <span class="span_3">Edit</span> button.</li>
+            <li class="NumberedList">Map the fields in the table:</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>If the template contains fields that are not in the view, leave the Mapping Value blank. The posting ignores blank fields.</p>
+        <table class="table_3">
+            <col style="width: 132pt;" />
+            <col style="width: 124pt;" />
+            <tr>
+                <td class="td_8">
+                    <p class="TableColumn">Template Fields</p>
+                </td>
+                <td class="td_9">
+                    <p class="TableColumn">Mapping Value</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_4">
+                    <p class="TableColumn">MAKT-MAKTX</p>
+                </td>
+                <td class="td_5">
+                    <p class="TableColumn">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_6">
+                    <p class="TableColumn">MARA-BRGEW</p>
+                </td>
+                <td class="td_7">
+                    <p class="TableColumn">GrossWeight</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_4">
+                    <p class="TableColumn">MARA-EXTWG</p>
+                </td>
+                <td class="td_5">
+                    <p class="TableColumn">ExternalMaterialGroup</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_6">
+                    <p class="TableColumn">MARA-GEWEI</p>
+                </td>
+                <td class="td_7">
+                    <p class="TableColumn">WeightUnit</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_4">
+                    <p class="TableColumn">MARA-MATKL</p>
+                </td>
+                <td class="td_5">
+                    <p class="TableColumn">MaterialGroup</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_6">
+                    <p class="TableColumn">MARA-MEINS</p>
+                </td>
+                <td class="td_7">
+                    <p class="TableColumn">BaseUnitOfMeasure</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_4">
+                    <p class="TableColumn">MARA-MTPOS_MARA</p>
+                </td>
+                <td class="td_5">
+                    <p class="TableColumn">CategoryGroup</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_6">
+                    <p class="TableColumn">MARA-NTGEW</p>
+                </td>
+                <td class="td_7">
+                    <p class="TableColumn">None</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_4">
+                    <p class="TableColumn">MARA-PRDHA</p>
+                </td>
+                <td class="td_5">
+                    <p class="TableColumn">ProductHierarchy</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_6">
+                    <p class="TableColumn">MARA-SPART</p>
+                </td>
+                <td class="td_7">
+                    <p class="TableColumn">Division</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_4">
+                    <p class="TableColumn">MARA-BISMT</p>
+                </td>
+                <td class="td_5">
+                    <p class="TableColumn">OldMaterialNumber</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_6">
+                    <p class="TableColumn">RMMG1-MBRSH</p>
+                </td>
+                <td class="td_7">
+                    <p class="TableColumn">IndustrySector</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_4">
+                    <p class="TableColumn">RMMG1-MTART</p>
+                </td>
+                <td class="td_5">
+                    <p class="TableColumn">MaterialType</p>
+                </td>
+            </tr>
+        </table>
+        <ol start="11" class="ol_3">
+            <li class="NumberedList">Click the <span class="span_3">Save</span> button.</li>
+            <li class="NumberedList">Verify the mapping is correct. </li>
+        </ol>
+        <p class="ScreenShot_2">&#160;</p>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Field Mappings_1.png" style="height: 516px;width: 624px;" class="img_2" />
+        </p>
+        <p class="Caption">Field Mapping</p>
+    </body>
+</html>

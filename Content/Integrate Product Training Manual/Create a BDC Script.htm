@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Outline"><a name="_Toc469048432"></a><span class="span_4">1.1 </span>Create a BDC Script</p>
+        <p class="Body">When recording a BDC script, SAP launches in learning or listening mode, which records the user's actions in SAP. Once the recording is complete, the user exits the transaction in SAP, and the recording is imported into Integrate. </p>
+        <p class="Note"><span class="span_3">NOTE:</span>Internet Explorer <span class="span_6">MUST</span> be used to record from within the DSP platform.</p>
+        <p class="Body">Create a BDC script to post legacy materials into SAP. </p>
+        <p class="Body">To create a template:</p>
+        <ol start="1" class="ol_2">
+            <li class="NumberedList">Locate <span class="span_3">TrainingXX</span> Category.</li>
+        </ol>
+        <ol start="2" class="ol_2">
+            <li class="NumberedList_1">Click <span class="span_3">Templates</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script.png" style="height: 16px;width: 16px;" class="img_1" />.</li>
+        </ol>
+        <ol start="3" class="ol_2">
+            <li class="NumberedList_1">Enter <span class="span_3">XXMaterials_JDE</span> in <span class="span_3">Template Name</span> field.</li>
+        </ol>
+        <p class="Note_1"><span class="span_3">NOTE</span>:The Template Name must be unique. The template name can contain A-Z, 0-9, and underscore. No special characters are allowed in template names, and Integrate will replace them with underscores when the template is saved. </p>
+        <ol start="4" class="ol_2">
+            <li class="NumberedList_1">Enter <span class="span_3">JDE Materials</span> in <span class="span_3">Description</span> field.</li>
+        </ol>
+        <ol start="5" class="ol_2">
+            <li class="NumberedList_1">Select <span class="span_3">BDC Script</span> from <span class="span_3">Type</span> list box.</li>
+        </ol>
+        <ol start="6" class="ol_2">
+            <li class="NumberedList_1">Select <span class="span_3">SAP</span> from <span class="span_3">SAP Connection ID</span> list box.</li>
+        </ol>
+        <p class="Note_1"><span class="span_3">NOTE:</span>The <span class="span_3">SAP Connection ID</span> defines which SAP system is used to gather metadata for the template. <span class="span_3">Type</span> defines the type of SAP interaction that the template will process.</p>
+        <ol start="7" class="ol_2">
+            <li class="NumberedList_1">Click the <span class="span_3">Save</span> button, the <span class="span_5">Vertical </span>View displays.</li>
+        </ol>
+        <ol start="8" class="ol_2">
+            <li class="NumberedList_1">Enter <span class="span_3">MM01</span> in <span class="span_3">Transaction Code</span> field.</li>
+        </ol>
+        <ol start="9" class="ol_2">
+            <li class="NumberedList_1">Click the <span class="span_3">Save</span> button.</li>
+        </ol>
+        <ol start="10" class="ol_2">
+            <li class="NumberedList_1"> Click <span class="span_3">Record</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_1.png" style="height: 16px;width: 16px;" class="img_1" />, a message displays.</li>
+        </ol>
+        <ol start="11" class="ol_2">
+            <li class="NumberedList_1"> Click the <span class="span_3">O</span><span class="span_3">K</span> button.</li>
+        </ol>
+        <p class="Note_1"><span class="span_3">NOTE</span><span class="span_3">:</span>SAP opens in learning mode using the defined transaction code, which uses the same recording mechanism as the SHDB transaction in SAP to track the fields modified by a user during the recording. The recording overwrites all template data with data from the recording.</p>
+        <p class="Note_1"><span class="span_3">NOTE:</span>Some actions performed in Integrate require that a user enter an SAP user name and password. In general, a user enters these credentials once per session, and the platform retains these values and reuses them throughout the session. If a session times out, or if a user logs out, the platform does not <span class="span_3">Save</span> the credentials. Integrate parameters can control whether a user must enter credentials for the SAP system every time these actions are performed or only the initial time the actions are performed during a session. </p>
+        <ol start="12" class="ol_2">
+            <li class="NumberedList_1"> Enter <span class="span_3">trainingXX</span> in <span class="span_3">SAP</span> <span class="span_3">User</span> <span class="span_3">ID</span> field.</li>
+        </ol>
+        <ol start="13" class="ol_2">
+            <li class="NumberedList_1"> Enter <span class="span_3">trainingXX</span> in <span class="span_3">SAP Password </span>field.</li>
+        </ol>
+        <ol start="14" class="ol_2">
+            <li class="NumberedList_1"> Click the <span class="span_3">Save </span>button.</li>
+        </ol>
+        <p class="Note_1"><span class="span_3">NOTE</span><span class="span_3">:</span>An SAP GUI Security pop-up box may display. If so, select <span class="span_3">Always </span><span class="span_3">A</span><span class="span_3">llow, </span>and click <span class="span_3">OK</span>. The recording must be re-recorded if this message displays.</p>
+        <ol start="15" class="ol_2">
+            <li class="NumberedList_1"> Enter <span class="span_3">Retail</span> in <span class="span_3">Industry</span> <span class="span_3">sector</span> field</li>
+        </ol>
+        <ol start="16" class="ol_2">
+            <li class="NumberedList_1"> Enter <span class="span_3">Finished</span> <span class="span_3">P</span><span class="span_3">roduct</span> in <span class="span_3">Material</span> <span class="span_3">Type</span> field.</li>
+        </ol>
+        <ol start="17" class="ol_2">
+            <li class="NumberedList_1"> Click <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_2.png" style="height: 16px;width: 16px;" class="img_1" />, the <span class="span_5">Select View</span> screen displays.</li>
+        </ol>
+        <ol start="18" class="ol_2">
+            <li class="NumberedList_1"> Click <span class="span_3">Basic Data 1</span> view.</li>
+        </ol>
+        <ol start="19" class="ol_2">
+            <li class="NumberedList_1"> Click <span class="span_3"><img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_3.png" style="height: 13px;width: 17px;" class="img_1" /></span>.</li>
+        </ol>
+        <p class="Note_1"><span class="span_3">NOTE</span><span class="span_3">:</span>Only fields the user touches in the recording are recorded in the template. There are three ways to mark a field as touched:</p>
+        <ul class="ul_2">
+            <li class="IndentBullet_1">Add a space to the end and delete it.</li>
+        </ul>
+        <ul class="ul_2">
+            <li class="IndentBullet_1">Delete the value and re-type it.</li>
+        </ul>
+        <ul class="ul_2">
+            <li class="IndentBullet_1">Add or change the value completely.</li>
+        </ul>
+        <ol start="20" class="ol_2">
+            <li class="NumberedList_1"> Add or change the value completely. Enter the following data:</li>
+        </ol>
+        <table class="table_2">
+            <col style="width: 131pt;" />
+            <col style="width: 140pt;" />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="TableColumn">Field</p>
+                    </th>
+                    <th class="th_2">
+                        <p class="TableColumn">Data</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_4">
+                        <p class="TableColumn_1">Material Description</p>
+                    </td>
+                    <td class="td_5">
+                        <p class="TableColumn_2">Enter any text</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_6">
+                        <p class="TableColumn_1">Base Unit of Measure</p>
+                    </td>
+                    <td class="td_7">
+                        <p class="TableColumn_2">EA</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_4">
+                        <p class="TableColumn_1">Material Group</p>
+                    </td>
+                    <td class="td_5">
+                        <p class="TableColumn_2">020</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_6">
+                        <p class="TableColumn_1">Old Material Number</p>
+                    </td>
+                    <td class="td_7">
+                        <p class="TableColumn_2">XX (your training number)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_6">
+                        <p class="TableColumn_1">External Material Group</p>
+                    </td>
+                    <td class="td_7">
+                        <p class="TableColumn_2">01</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_4">
+                        <p class="TableColumn_1">Division </p>
+                    </td>
+                    <td class="td_5">
+                        <p class="TableColumn_2">09</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_6">
+                        <p class="TableColumn_1">Product Hierarchy</p>
+                    </td>
+                    <td class="td_7">
+                        <p class="TableColumn_2">00105</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_4">
+                        <p class="TableColumn_1">Gen Item Cat Group</p>
+                    </td>
+                    <td class="td_5">
+                        <p class="TableColumn_2">NORM</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_6">
+                        <p class="TableColumn_1">Gross Weight</p>
+                    </td>
+                    <td class="td_7">
+                        <p class="TableColumn_2">38</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_4">
+                        <p class="TableColumn_1">Weight Unit</p>
+                    </td>
+                    <td class="td_5">
+                        <p class="TableColumn">LB</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_6">
+                        <p class="TableColumn_1">Net Weight</p>
+                    </td>
+                    <td class="td_7">
+                        <p class="TableColumn">35</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol start="21" class="ol_2">
+            <li class="NumberedList_1">Click <span class="span_3">Save</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_4.png" style="height: 16px;width: 17px;" class="img_1" />.</li>
+        </ol>
+        <ol start="22" class="ol_2">
+            <li class="NumberedList_1">Click <span class="span_7">Vertical </span><span class="span_3">View</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_5.png" style="height: 17px;width: 17px;" class="img_1" /> for the template.</li>
+        </ol>
+        <ol start="23" class="ol_2">
+            <li class="NumberedList_1">Click <span class="span_3">Configuration</span> tab.</li>
+        </ol>
+        <ol start="24" class="ol_2">
+            <li class="NumberedList_1">Click <span class="span_3">BDC Screen</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_6.png" style="height: 16px;width: 16px;" class="img_1" /> to view the recording.</li>
+        </ol>
+        <p class="Note_2"><span class="span_3">NOTE</span>:The screens from the recording display with a fields icon at the top of the page. The number of screen fields display on the <span class="span_3">Fields</span> icon. The fields for the selected screen display in the <span class="span_5">Dependent</span> pane. If <span class="span_3">Is Field</span> is checked, the record represents a field in SAP and can be mapped to data in a process.</p>
+        <p class="ScreenShot_1">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_7.png" style="height: 405px;width: 624px;" class="img_2" />
+        </p>
+        <p class="Caption_1">BDC Recording Screens &amp; Fields</p>
+        <ol start="25" class="ol_2">
+            <li class="NumberedList_1">Click the <span class="span_3">Browser Back</span> button.</li>
+        </ol>
+        <ol start="26" class="ol_2">
+            <li class="NumberedList_1">Click <span class="span_3">Documentation</span> tab.</li>
+        </ol>
+        <ol start="27" class="ol_2">
+            <li class="NumberedList_1">Click <span class="span_3">Report</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_8.png" style="height: 16px;width: 16px;" class="img_1" />.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>For each template, view and print a report that lists the field name and value for each template field. A template report is available for a template regardless of its activation status. </p>
+        <ol start="28" class="ol_2">
+            <li class="NumberedList_1">Click <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_9.png" style="height: 16px;width: 16px;" class="img_1" /> to close the <span class="span_5">Report</span> page.</li>
+        </ol>
+        <ol start="29" class="ol_2">
+            <li class="NumberedList_1">Click <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_9.png" style="height: 16px;width: 16px;" class="img_1" /> to close the <span class="span_5">Vertical</span> View.</li>
+        </ol>
+        <ol start="30" class="ol_2">
+            <li class="NumberedList_1">Click <span class="span_3">Activate/Deactivate</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_10.png" style="height: 16px;width: 18px;" class="img_1" /> to activate the template, a message displays.</li>
+        </ol>
+        <p class="Note_2"><span class="span_3">NOTE</span>:Activating or deactivating a template uses Back End Authentication to retrieve template metadata from SAP, if necessary. </p>
+        <ol start="31" class="ol_2">
+            <li class="NumberedList">Click the <span class="span_3">O</span><span class="span_3">K</span> button.</li>
+        </ol>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_11.png" style="height: 52px;width: 624px;" class="img_2" />
+        </p>
+        <p class="Caption">Activated Template</p>
+    </body>
+</html>

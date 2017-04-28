@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Outline"><a name="_Toc469048457"></a><span class="span_4">6.1 </span>Post the Materials using BOA Session Creation</p>
+        <p class="Body">If the process post is based on a process with a single BDC Script template, any of the posting methods in the <span class="span_3">BDC Post Method</span> list box can be used. A process post with multiple templates, or one that is based on a template type other than BDC Script, can only use the <span class="span_3">StandardSAPPosting</span> BDC Post Method. </p>
+        <p class="Body">Methods available for a process post based on a single BDC Script template include:</p>
+        <ul class="ul_1">
+            <li class="ListBullet_1"><span class="span_3">BOAFileCreation</span> – Creates files on the web server that can be used in the /BOA/ZBDCPROCESS program in SE38.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1"><span class="span_3">BOAPosting</span> – Posts immediately using the BOA™ Function Module.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1"><span class="span_3">B</span><span class="span_3">OAPostingWithErrorSessionCreation</span> – Posts immediately using the BOA Function Module and creates an SM35 session with any errors. The error session contains only the records that failed to post, successful transactions are not included. </li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1"><span class="span_3">BOASessionCreation</span> – Uses the BOA Function Module to create an SM35 session containing all of the data in the process post, but does not post the data to SAP.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1"><span class="span_3">StandardSAPPosting </span>– Posts using the standard SAP Function Modules.</li>
+        </ul>
+        <p class="Body">Depending on the BDC Post Method selected, certain settings on the <span class="span_3">Advanced</span> tab should not be used. For example, any process post using <span class="span_3">StandardSAPPosting</span> will not use any settings in the <span class="span_3">BOA Function Module Upload Options</span> section, or in the <span class="span_3">BOA BDC File Options</span> section. </p>
+        <p class="Body">Only process posts using the <span class="span_3">BOAFileCreation</span><span class="span_3">.</span> The BDC Post Method should use the settings in the <span class="span_3">BOA BDC File Options</span> section.</p>
+        <p class="Body">The following table lists which settings should be used based on BDC Post Method and other factors. </p>
+        <table class="table_4">
+            <col style="width: 122pt;" />
+            <col style="width: 81pt;" />
+            <col style="width: 63pt;" />
+            <col style="width: 86pt;" />
+            <col style="width: 72pt;" />
+            <col style="width: 77pt;" />
+            <thead>
+                <tr>
+                    <th class="th_3">
+                        <p class="TableColumn">BDC Post Method</p>
+                    </th>
+                    <th class="th_3">
+                        <p class="TableColumn">BOA File Creation</p>
+                    </th>
+                    <th class="th_3">
+                        <p class="TableColumn">BOA Posting</p>
+                    </th>
+                    <th class="th_3">
+                        <p class="TableColumn">BOAPosting With Error Session Creation</p>
+                    </th>
+                    <th class="th_3">
+                        <p class="TableColumn">BOA Session Creation</p>
+                    </th>
+                    <th class="th_3">
+                        <p class="TableColumn">Standard SAP Posting</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_10">
+                        <p class="TableColumn_3">For a process post based on:</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn">Single BDC Script template</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn">Single BDC Script template</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn">Single BDC Script template</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn">Single BDC Script template</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn">All template types</p>
+                        <p class="TableColumn">Process with multiple templates</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_12">
+                        <p class="TableColumn">Advanced Post Settings</p>
+                    </td>
+                    <td colspan="5" class="td_13">
+                        <p class="TableColumn_4">Advanced settings for Posting</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_10">
+                        <p class="TableColumn_3">Batch size</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_14">
+                        <p class="TableColumn_3">User Name </p>
+                        <p class="TableColumn_3">NOTE: Used only with Stored Credentials Post Method.</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_10">
+                        <p class="TableColumn_3">Password</p>
+                        <p class="TableColumn_3">NOTE: Used only with Stored Credentials Post Method.</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_14">
+                        <p class="TableColumn_3">Comment</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_10">
+                        <p class="TableColumn_3">Transfer Files to Data source</p>
+                        <p class="TableColumn_3">NOTE: Used with User Defined Template Types only.</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_12">
+                        <p class="TableColumn_3">Debug and Test Options</p>
+                    </td>
+                    <td colspan="5" class="td_13">
+                        <p class="TableColumn_4">Debug and Testing Options</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_10">
+                        <p class="TableColumn_3">Start Template Priority</p>
+                        <p class="TableColumn_3">NOTE: Used with a process with multiple templates assigned.</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_10">
+                        <p class="TableColumn_3">End Template Priority</p>
+                        <p class="TableColumn_3">NOTE: Used with a process with multiple templates assigned.</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_10">
+                        <p class="TableColumn_3">Create GUI Debug Script</p>
+                        <p class="TableColumn_3">NOTE: Used only with GUI Script template. </p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_12">
+                        <p class="TableColumn_3">BOA Function Module Upload Options</p>
+                    </td>
+                    <td colspan="5" class="td_13">
+                        <p class="TableColumn">The settings in this section are not used when the BDC Post Method is StandardSAPPosting.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_10">
+                        <p class="TableColumn_3">Keep Session</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_14">
+                        <p class="TableColumn_3">Continue on Commit</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_10">
+                        <p class="TableColumn_3">No Data Symbol </p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_14">
+                        <p class="TableColumn_3">Group Name</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn_4">&#160;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_12">
+                        <p class="TableColumn_3">BOA BDC File Options</p>
+                    </td>
+                    <td colspan="5" class="td_13">
+                        <p class="TableColumn">The settings in this section are only used when the BDC Post Method is BOAFileCreation.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_10">
+                        <p class="TableColumn_3">Session File Path</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn">X</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn">&#160;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_14">
+                        <p class="TableColumn_3">Session File Name</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn">X</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn">&#160;</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn">&#160;</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn">&#160;</p>
+                    </td>
+                    <td class="td_15">
+                        <p class="TableColumn">&#160;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_10">
+                        <p class="TableColumn_3">File Split Interval</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn">X</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn">&#160;</p>
+                    </td>
+                    <td class="td_11">
+                        <p class="TableColumn">&#160;</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="Body">To change the BDC Post Method:</p>
+        <ol start="1" class="ol_3">
+            <li class="NumberedList">Click the <span class="span_3">Browser Back</span> button.</li>
+            <li class="NumberedList">Locate the <span class="span_3">XXExtendToOrgUnit</span> process.</li>
+            <li class="NumberedList">Click <span class="span_3">Vertical View</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_5.png" style="height: 16px;width: 16px;" class="img_1" /> of the Process Post in the <span class="span_5">Dependent</span> pane.</li>
+            <li class="NumberedList">Click <span class="span_3">Advanced</span> tab.</li>
+            <li class="NumberedList">Click the <span class="span_3">Edit</span> button. </li>
+            <li class="NumberedList">Select <span class="span_3">BOASessionCreation</span> from <span class="span_3">BDC Post Method</span> list box.</li>
+            <li class="NumberedList">Click <span class="span_3">Keep Session</span> check box.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span><span class="span_3">Keep Session</span> only applies to posting methods BOASessionCreation and BOAPostingWithErrorSessionCreation. If <span class="span_3">Keep Session</span> is enabled, the session is saved in SM35 even after a successful post. Saving a session is useful in the event it needs to be rerun.</p>
+        <ol start="8" class="ol_3">
+            <li class="NumberedList">Enter <span class="span_3">TrainXX</span> in <span class="span_3">Group Name</span> field.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>The <span class="span_3">Group Name</span> is the BOA BDC setting that names sessions created in SM35. The default is BOA if no Group Name is indicated.</p>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post the Materials using BOA.png" style="height: 394px;width: 294px;" class="img_2" />
+        </p>
+        <p class="Caption">Configure BOASession Creation</p>
+        <ol start="9" class="ol_3">
+            <li class="NumberedList">Click the <span class="span_3">Save</span> button.</li>
+            <li class="NumberedList">Close the <span class="span_5">Vertical</span> View.</li>
+            <li class="NumberedList">Click <span class="span_3">Post</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Post Data with a Where Clause.png" style="height: 16px;width: 17px;" class="img_1" />, a confirmation message displays.</li>
+            <li class="NumberedList">Click the <span class="span_3">Ok</span> button. </li>
+            <li class="NumberedList">Click <span class="span_3">View Messages</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/View Messages.png" style="height: 16px;width: 17px;" class="img_1" /> to view messages for the posting.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>The message returns that the post was successful because the batch session was created successfully, no records posted. Records did not extend due to a known error with the template. Tax Classification is a required field for semi-finished materials in SAP. The BOASessionCreate creates an SM35 session to determine the issue with the template.</p>
+    </body>
+</html>

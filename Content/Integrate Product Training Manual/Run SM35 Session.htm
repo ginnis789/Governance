@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Outline"><a name="_Toc469048458"></a><span class="span_4">6.2 </span>Run SM35 Session</p>
+        <p class="Body">The template created in Exercise 6.0 is missing a field. A SM35 session was completed to determine what field needs to be added to the view, and what SAP screen the view is on.</p>
+        <p class="Body">To determine the template issue:</p>
+        <ol start="1" class="ol_3">
+            <li class="NumberedList">Log into the SAP GUI. </li>
+            <li class="NumberedList">Enter Transaction code <span class="span_3">SM35</span>.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE</span>:SM35 is a session overview screen for Batch Input data transfers. Batch input is one of the primary ways in which data can be transferred into SAP. SM35 allows users to:</p>
+        <ul class="ul_2">
+            <li class="IndentBullet_2">Process input sessions either in the foreground or background.</li>
+        </ul>
+        <ul class="ul_2">
+            <li class="IndentBullet_2">Check input sessions in the event that batch input sessions are processed on a schedule.</li>
+        </ul>
+        <ul class="ul_2">
+            <li class="IndentBullet_2">Analyze input errors. Input sessions offer detailed logging during the process. </li>
+        </ul>
+        <ul class="ul_2">
+            <li class="IndentBullet_2">Correcting input errors during foreground execution. Users can interactively correct data and re-process transactions.</li>
+        </ul>
+        <ol start="3" class="ol_3">
+            <li class="NumberedList">Locate <span class="span_3">TRAINXX</span> in <span class="span_3">Session name</span> column.</li>
+            <li class="NumberedList">Highlight <span class="span_3">TRAINXX</span> row.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE</span>:To highlight a record in SM35, click on the blue box to the left of the record.</p>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Run SM35 Session.png" style="height: 31px;width: 624px;" class="img_2" />
+        </p>
+        <p class="Caption"> Session Overview in SAP: SM35</p>
+        <ol start="5" class="ol_3">
+            <li class="NumberedList">Click the <span class="span_3">Process</span> button on the SAP toolbar.</li>
+            <li class="NumberedList">Click the <span class="span_3">Display Errors Only</span> radio button.</li>
+            <li class="NumberedList">Click the <span class="span_3">Process</span> button.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>A message displays where the error occurs, and <span class="span_3">Tax Classifications</span> field displays in yellow indicating a required field. </p>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Run SM35 Session_1.png" style="height: 440px;width: 660px;" class="img_2" />
+        </p>
+        <p class="Caption">SAP Error in SM35</p>
+        <p class="Note"><span class="span_3">NOTE:</span>To determine the technical information for the field and what view it sits on, the Technical Information needs to be viewed.</p>
+        <ol start="8" class="ol_3">
+            <li class="NumberedList">Place the cursor in the field.</li>
+            <li class="NumberedList">Click <span class="span_3">F1</span> on the keyboard, the <span class="span_5">Performance Assistant</span> window displays.</li>
+            <li class="NumberedList">Click <span class="span_3">Technical Information</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Run SM35 Session_2.png" style="height: 19px;width: 19px;" alt="PPTB4A8.png" class="img_1" /> on SAP toolbar.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>The <span class="span_3">Tax </span>field is on screen <span class="span_3">4</span><span class="span_3">2</span><span class="span_3">00</span> and located in table <span class="span_3">MG03STEUER</span>.</p>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Run SM35 Session_3.png" style="height: 494px;width: 396px;" class="img_2" />
+        </p>
+        <p class="Caption">Field Technical Information</p>
+        <ol start="11" class="ol_3">
+            <li class="NumberedList">Click <span class="span_3">Cancel</span>.</li>
+            <li class="NumberedList">Enter <span class="span_3">/bend</span> to end SM35 in dialog box.</li>
+        </ol>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Run SM35 Session_4.png" style="height: 79px;width: 222px;" class="img_2" />
+        </p>
+        <p class="Caption">End Session</p>
+        <ol start="13" class="ol_3">
+            <li class="NumberedList">Click <span class="span_3">Enter</span>.</li>
+            <li class="NumberedList">Click the <span class="span_3">Exit batch input </span>button.</li>
+        </ol>
+    </body>
+</html>

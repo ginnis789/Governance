@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Outline"><a name="_Toc469048474"></a><span class="span_4">10.3 </span>Configure Relationships</p>
+        <p class="Body">If the <span class="span_3">VIEW NAME</span> for a process template’s first loop is updated on the <span class="span_5">Process Template Loop</span> page, Integrate updates relationships involving that loop with the new view name. Integrate updates relationships whether or not the process was created using the Auto Generate Database Objects feature.</p>
+        <p class="Body">When Integrate generates relationships using the Auto Generate Database Objects feature, the Child Column Name does not have to link to the auto-generated Parent Column Name(ID) for Upload or Download tables. However, the parent and child loops must still be linked. Any column identified as a Header Key can be used as the Parent Column Name to link the detail records (or the child loops) to the header record (the parent loop). For example a Header Key column could be added to all upload and download tables for <span class="span_3">BAPI_MATERIAL_</span><span class="span_3">SAVE</span><span class="span_3">DATA</span> that is populated with the Material Number.</p>
+        <p class="Body">To modify the relationships:</p>
+        <ol start="1" class="ol_2">
+            <li class="NumberedList_2">Click <span class="span_3">Relationships</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Relationships.png" style="height: 16px;width: 17px;" class="img_1" /> on the <span class="span_5">Process Template Loop</span> page. </li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE</span>:Relationships have been generated as part of the Auto Generation process.</p>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Relationships_1.png" style="height: 90px;width: 623px;" class="img_2" />
+        </p>
+        <p class="Caption">Relationships</p>
+        <p class="Note"><span class="span_3">NOTE</span>:When the Auto Generate Database Object feature was used, in the column on the left, Integrate mapped each child loop to the Upload parent loop. Below the plus icon for each loop name, the blue and orange bar indicates that the Child ID has been mapped to the Parent ID (in this case the Upload loop). </p>
+        <p class="Body">The View Name for the Parent Upload is the view name generated for this loop by the Auto Generate Database Objects feature. The View Name can be manually updated and saved on the <span class="span_5">Process Template Loop</span> page. In this case, Integrate will update the View Name in the Parent Upload loop for the relationships. </p>
+        <p class="Body">When Integrate generates the relationship automatically, it uses the value <span class="span_3">ID</span> for the<span class="span_3"> Parent Column Name</span><span class="span_3">.</span> If the user manually sets a column as the <span class="span_3">Parent Column Name</span>, this column must contain a unique value that can be mapped to a column in the child loop. </p>
+        <p class="Note"><span class="span_3">NOTE</span>:When Integrate generates the relationship automatically, it uses the value <span class="span_3">Parent</span><span class="span_3">ID</span> for the<span class="span_3"> Child Column Name</span><span class="span_3">.</span> If the user sets a column as the <span class="span_3">Child</span><span class="span_3"> Column Name</span>, this column must contain a unique value that can be mapped to the <span class="span_3">Parent Column Name</span> in the parent loop.  </p>
+        <p class="Body">The <span class="span_3">Parent Direction</span> displays <span class="span_3">Upload</span>. The <span class="span_3">Child Direction</span> displays <span class="span_3">Download</span>. In the column on the right, Integrate also maps each child loop with download fields to the Download parent loop. Below the plus icon for each loop name, the blue and orange bar indicates that the Child ID has been mapped to the Parent ID (in this case the Download loop). Integrate also sets a relationship between the Parent Upload loop and Parent Download loop. The Download loops (the loop that contains download fields) map to the Parent Upload loop through the Parent Download loop. This way, each record uploaded via the Primary Upload loop will have one or many corresponding records in the download tables.</p>
+    </body>
+</html>

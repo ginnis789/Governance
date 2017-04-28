@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Integrate Product Training Manual/CoverPage.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="Overview"
+    Link="/Content/Integrate Product Training Manual/OverView.htm#_Toc469048425">
+    <TocEntry
+      Title="Who should use this manual?"
+      Link="/Content/Integrate Product Training Manual/OverView.htm#_Toc469048426" />
+    <TocEntry
+      Title="General Notes"
+      Link="/Content/Integrate Product Training Manual/OverView.htm#_Toc469048427" />
+    <TocEntry
+      Title="Relevant Documentation"
+      Link="../../../../../Desktop/Integrate/Integrate Product Training (6.6) VP_GM (04-18-2017).docx#_Toc469048428"
+      AbsoluteLink="file:///C:/Users/admin/Desktop/Integrate/Integrate Product Training (6.6) VP_GM (04-18-2017).docx#_Toc469048428" />
+  </TocEntry>
+  <TocEntry
+    Title="Exercise 1 - Post Using BDC Recording"
+    Link="/Content/Integrate Product Training Manual/Post Using BDC Recording.htm#_Toc469048429">
+    <TocEntry
+      Title="1.0 Create a Category"
+      Link="/Content/Integrate Product Training Manual/Create a Category.htm#_Toc469048430" />
+    <TocEntry
+      Title="Recording Tips"
+      Link="/Content/Integrate Product Training Manual/Create a Category.htm#_Toc469048431" />
+    <TocEntry
+      Title="1.1 Create a BDC Script"
+      Link="/Content/Integrate Product Training Manual/Create a BDC Script.htm#_Toc469048432" />
+    <TocEntry
+      Title="1.2 Create a Process"
+      Link="/Content/Integrate Product Training Manual/Create a Process.htm#_Toc469048433" />
+    <TocEntry
+      Title="1.3 Post New Materials"
+      Link="/Content/Integrate Product Training Manual/Post New Materials.htm#_Toc469048434" />
+    <TocEntry
+      Title="1.4 View Messages"
+      Link="/Content/Integrate Product Training Manual/View Messages.htm#_Toc469048435" />
+    <TocEntry
+      Title="1.5 Verify Data Posted to SAP"
+      Link="/Content/Integrate Product Training Manual/Verify Data Posted to SAP.htm#_Toc469048436" />
+  </TocEntry>
+  <TocEntry
+    Title="Exercise 2 - Create New Materials"
+    Link="/Content/Integrate Product Training Manual/Create New Materials.htm#_Toc469048437">
+    <TocEntry
+      Title="2.0 Self-Directed Exercise – Add a Process to the Category"
+      Link="/Content/Integrate Product Training Manual/Self Directed Add a Process.htm#_Toc469048438" />
+    <TocEntry
+      Title="2.1 Configure Field Mappings"
+      Link="/Content/Integrate Product Training Manual/Configure Field Mappings.htm#_Toc469048439" />
+    <TocEntry
+      Title="2.2 Self-Directed Exercise – Post the Materials"
+      Link="/Content/Integrate Product Training Manual/Self Directed Exercise Post.htm#_Toc469048440" />
+  </TocEntry>
+  <TocEntry
+    Title="Exercise 3 - Create a Material Change"
+    Link="/Content/Integrate Product Training Manual/Create a Material Change.htm#_Toc469048441">
+    <TocEntry
+      Title="3.0 Create a Template to Change Weight Unit"
+      Link="/Content/Integrate Product Training Manual/Create a Template to Change.htm#_Toc469048442" />
+    <TocEntry
+      Title="3.1 Self-Directed Exercise – Create a Process"
+      Link="/Content/Integrate Product Training Manual/Self Directed Exercise Create.htm#_Toc469048443" />
+    <TocEntry
+      Title="3.2 Post Data with a Where Clause"
+      Link="/Content/Integrate Product Training Manual/Post Data with a Where Clause.htm#_Toc469048444" />
+    <TocEntry
+      Title="3.3 Review changes in SAP"
+      Link="/Content/Integrate Product Training Manual/Review changes in SAP.htm#_Toc469048445" />
+  </TocEntry>
+  <TocEntry
+    Title="Exercise 4 - Create Material Change by Importing a Recording"
+    Link="/Content/Integrate Product Training Manual/Create Material Change by.htm#_Toc469048446">
+    <TocEntry
+      Title="4.0 Create a SHDB Recording"
+      Link="/Content/Integrate Product Training Manual/Create a SHDB Recording.htm#_Toc469048447" />
+    <TocEntry
+      Title="4.1 Create a Template"
+      Link="/Content/Integrate Product Training Manual/Create a Template.htm#_Toc469048448" />
+    <TocEntry
+      Title="4.2 Self-Directed – Create a Process and Post"
+      Link="/Content/Integrate Product Training Manual/Self Directed Create a Process.htm#_Toc469048449" />
+  </TocEntry>
+  <TocEntry
+    Title="Exercise 5 - Copy Template and Transaction Stringing"
+    Link="/Content/Integrate Product Training Manual/Copy Template and Transaction.htm#_Toc469048450">
+    <TocEntry
+      Title="5.0 Copy a Template"
+      Link="/Content/Integrate Product Training Manual/Copy a Template.htm#_Toc469048451" />
+    <TocEntry
+      Title="5.1 Create a Process with Multiple Templates"
+      Link="/Content/Integrate Product Training Manual/Create a Process with Multiple.htm#_Toc469048452" />
+    <TocEntry
+      Title="5.2 Configure Transaction Stringing"
+      Link="/Content/Integrate Product Training Manual/Configure Transaction Stringing.htm#_Toc469048453" />
+    <TocEntry
+      Title="5.3 Self-Directed Exercise – Post the Records"
+      Link="/Content/Integrate Product Training Manual/Self Directed Exercise Post_1.htm#_Toc469048454" />
+  </TocEntry>
+  <TocEntry
+    Title="Exercise 6 - Troubleshooting BDC Posting Failures"
+    Link="/Content/Integrate Product Training Manual/Troubleshooting BDC Posting.htm#_Toc469048455">
+    <TocEntry
+      Title="6.0 Self-Directed – Copy a Template to Extend to Org Units"
+      Link="/Content/Integrate Product Training Manual/Self Directed Copy a Template.htm#_Toc469048456" />
+    <TocEntry
+      Title="6.1 Post the Materials using BOA Session Creation"
+      Link="/Content/Integrate Product Training Manual/Post the Materials using BOA.htm#_Toc469048457" />
+    <TocEntry
+      Title="6.2 Run SM35 Session"
+      Link="/Content/Integrate Product Training Manual/Run SM35 Session.htm#_Toc469048458" />
+    <TocEntry
+      Title="6.3 Modify Template"
+      Link="/Content/Integrate Product Training Manual/Modify Template.htm#_Toc469048459" />
+    <TocEntry
+      Title="6.4 Self-Directed – Change Posting Method and Post"
+      Link="/Content/Integrate Product Training Manual/Self Directed Change Posting.htm#_Toc469048460" />
+    <TocEntry
+      Title="6.5 Create a Template with BDC Recording with Looping"
+      Link="/Content/Integrate Product Training Manual/Create a Template with BDC.htm#_Toc469048461" />
+    <TocEntry
+      Title="6.6 Configure the Template to Loop"
+      Link="/Content/Integrate Product Training Manual/Configure the Template to.htm#_Toc469048462" />
+    <TocEntry
+      Title="6.7 Add a Process to the Category and Configure Loop"
+      Link="/Content/Integrate Product Training Manual/Add a Process to the Category.htm#_Toc469048463" />
+    <TocEntry
+      Title="6.8 Update Views in SQL"
+      Link="/Content/Integrate Product Training Manual/Update Views in SQL.htm#_Toc469048464" />
+    <TocEntry
+      Title="6.9 Map Fields"
+      Link="/Content/Integrate Product Training Manual/E Map Fields.htm#_Toc469048465" />
+  </TocEntry>
+  <TocEntry
+    Title="Exercise 7 - After Template Post Rules"
+    Link="/Content/Integrate Product Training Manual/After Template Post Rules.htm#_Toc469048466">
+    <TocEntry
+      Title="7.0 Register a Collect Download After Post Rule Manually"
+      Link="/Content/Integrate Product Training Manual/Register a Collect Download.htm#_Toc469048467" />
+    <TocEntry
+      Title="7.1 Post the Changes to SAP using BDC Recording"
+      Link="/Content/Integrate Product Training Manual/Post the Changes to SAP using.htm#_Toc469048468" />
+  </TocEntry>
+  <TocEntry
+    Title="Exercise 8 - Add a Conditional to a Template"
+    Link="/Content/Integrate Product Training Manual/Add a Conditional to a Template.htm#_Toc469048469" />
+  <TocEntry
+    Title="Exercise 9 - Post Using a BAPI"
+    Link="/Content/Integrate Product Training Manual/Post Using a BAPI.htm#_Toc469048470">
+    <TocEntry
+      Title="9.0 Create a Template Using a BAPI"
+      Link="/Content/Integrate Product Training Manual/Create a Template Using a.htm#_Toc469048471" />
+    <TocEntry
+      Title="9.1 Create a Process"
+      Link="/Content/Integrate Product Training Manual/Create a Process_1.htm#_Toc469048472" />
+    <TocEntry
+      Title="9.2 Configure BAPI Loops"
+      Link="/Content/Integrate Product Training Manual/Configure BAPI Loops.htm#_Toc469048473" />
+    <TocEntry
+      Title="9.3 Configure Relationships"
+      Link="/Content/Integrate Product Training Manual/Configure Relationships.htm#_Toc469048474" />
+    <TocEntry
+      Title="9.4 Configure the Upload Table in SQL"
+      Link="/Content/Integrate Product Training Manual/Configure the Upload Table.htm#_Toc469048475" />
+    <TocEntry
+      Title="9.5 Self-Directed – Post the Process"
+      Link="/Content/Integrate Product Training Manual/Configure the Upload Table.htm#_Toc469048476" />
+  </TocEntry>
+  <TocEntry
+    Title="Exercise 10 - Exercise 10 - Post Using an SAP Data Services Job"
+    Link="../../../../../Desktop/Integrate/Integrate Product Training (6.6) VP_GM (04-18-2017).docx#_Toc469048477"
+    AbsoluteLink="file:///C:/Users/admin/Desktop/Integrate/Integrate Product Training (6.6) VP_GM (04-18-2017).docx#_Toc469048477">
+    <TocEntry
+      Title="10.0 Create Template Using SAP Data Services"
+      Link="../../../../../Desktop/Integrate/Integrate Product Training (6.6) VP_GM (04-18-2017).docx#_Toc469048478"
+      AbsoluteLink="file:///C:/Users/admin/Desktop/Integrate/Integrate Product Training (6.6) VP_GM (04-18-2017).docx#_Toc469048478" />
+    <TocEntry
+      Title="10.1 Create Template Using SAP Data Services"
+      Link="../../../../../Desktop/Integrate/Integrate Product Training (6.6) VP_GM (04-18-2017).docx#_Toc469048479"
+      AbsoluteLink="file:///C:/Users/admin/Desktop/Integrate/Integrate Product Training (6.6) VP_GM (04-18-2017).docx#_Toc469048479" />
+    <TocEntry
+      Title="10.2 Configure a Process Template Loop Manually For Data Services"
+      Link="../../../../../Desktop/Integrate/Integrate Product Training (6.6) VP_GM (04-18-2017).docx#_Toc469048480"
+      AbsoluteLink="file:///C:/Users/admin/Desktop/Integrate/Integrate Product Training (6.6) VP_GM (04-18-2017).docx#_Toc469048480" />
+    <TocEntry
+      Title="10.3 Configure Field Mappings for an SAP Data Services Job Process Template"
+      Link="../../../../../Desktop/Integrate/Integrate Product Training (6.6) VP_GM (04-18-2017).docx#_Toc469048481"
+      AbsoluteLink="file:///C:/Users/admin/Desktop/Integrate/Integrate Product Training (6.6) VP_GM (04-18-2017).docx#_Toc469048481" />
+    <TocEntry
+      Title="10.4 Post Data Using an SAP Data Services Job"
+      Link="../../../../../Desktop/Integrate/Integrate Product Training (6.6) VP_GM (04-18-2017).docx#_Toc469048482"
+      AbsoluteLink="file:///C:/Users/admin/Desktop/Integrate/Integrate Product Training (6.6) VP_GM (04-18-2017).docx#_Toc469048482" />
+  </TocEntry>
+</CatapultToc>

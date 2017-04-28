@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Outline"><a name="_Toc469048433"></a><span class="span_4">1.2 </span>Create a Process</p>
+        <p class="Body">A Process is a series of posting steps:</p>
+        <ul class="ul_1">
+            <li class="ListBullet_1">It defines how Integrate takes data from the DSP database, and transfers it to the business systems.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">It serves to link the data in a column in a view with a field on a template assigned to the process.</li>
+        </ul>
+        <p class="Body">Each posting step is a template that is added to the process. </p>
+        <p class="Body">Processes are grouped into categories for organizational purposes. A process must have at least one template. Multiple templates can be added to a process for more complex posts/loads. Each template is tied to one, or multiple views. </p>
+        <p class="Body">When a template is added to a process, Integrate imports the loops and settings from the template into the process, and fields are mapped to columns in views. Depending on the template type, Integrate may perform field mapping automatically. Fields can be mapped manually or use the Auto Generate Database Objects feature. The Auto Generate Database Objects is a feature that quickly configures process template loops, relationships, field mappings and creates views and tables in the designated database.</p>
+        <p class="Body">Create a process and assign the BDC Script template.</p>
+        <p class="Body">To create a process: </p>
+        <ol start="1" class="ol_2">
+            <li class="NumberedList">Click <span class="span_3">Integrate</span> on the <span class="span_5">Navigation</span> pane.</li>
+            <li class="NumberedList">Click <span class="span_3">Categories</span> on the <span class="span_5">Navigation</span> pane.</li>
+        </ol>
+        <ol start="3" class="ol_2">
+            <li class="NumberedList">Locate <span class="span_3">TrainingXX</span>.</li>
+        </ol>
+        <ol start="4" class="ol_2">
+            <li class="NumberedList">Click <span class="span_3">Processes</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process.png" style="height: 16px;width: 18px;" class="img_1" />.</li>
+        </ol>
+        <ol start="5" class="ol_2">
+            <li class="NumberedList">Enter <span class="span_3">10</span> in <span class="span_3">Priority</span> field.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE</span>:When adding the template, the priority set for each template determines the order the template is posted. Templates are processed in ascending priority order.</p>
+        <ol start="6" class="ol_2">
+            <li class="NumberedList">Enter <span class="span_3">XX</span><span class="span_3">FinishedMaterials_JDE</span> in <span class="span_3">Name</span> field. </li>
+        </ol>
+        <ol start="7" class="ol_2">
+            <li class="NumberedList">Enter <span class="span_3">Finished Materials from JDE</span> in <span class="span_3">Description</span> field. </li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>The <span class="span_3">Description</span> field should give details of the purpose of the process. For the purpose of this class, enter the type of Template for the change.</p>
+        <ol start="8" class="ol_2">
+            <li class="NumberedList">Select <span class="span_3">XXMaterials_JDE</span> from <span class="span_3">Template ID</span> list box. </li>
+        </ol>
+        <ol start="9" class="ol_2">
+            <li class="NumberedList">Select <span class="span_3">sdbNorthwindXX</span> from <span class="span_3">Data Source ID</span> list box. </li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>The <span class="span_3">Data Source ID</span> list box displays all Data Sources registered to the DSP instance. The selected Data Source should contain the data to be posted to SAP.</p>
+        <ol start="10" class="ol_2">
+            <li class="NumberedList">Select <span class="span_3">txFinishedMaterials_JDEInt</span> from <span class="span_3">View Name</span> list box. </li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>Integrate filters the views based on the prefix <span class="span_5">tx</span> and suffix <span class="span_5">Int</span>. If the view does not display in the list box, the naming convention is incorrect. If a view is not selected, it can be auto generated based on the recording. Auto Generate Database Objects creates tables and views in the designated database for the process template loops. Integrate creates each view with the name <span class="span_5">tx</span>[Process Name] {Template Name}<span class="span_5">Int</span> and creates each table with the name <span class="span_5">tt</span>[Process Name] {Template Name]_Upload.</p>
+        <ol start="11" class="ol_2">
+            <li class="NumberedList">Click <span class="span_3">Documentation</span> tab.</li>
+        </ol>
+        <ol start="12" class="ol_2">
+            <li class="NumberedList">Enter notes about the process in <span class="span_3">Notes</span> field.</li>
+        </ol>
+        <ol start="13" class="ol_2">
+            <li class="NumberedList">Click <span class="span_3">Advanced Properties</span> tab to view the Execution Options.</li>
+        </ol>
+        <ol start="14" class="ol_2">
+            <li class="NumberedList">Verify <span class="span_3">Asynchronous</span> is selected from <span class="span_3">Post Execution Method</span> list box. </li>
+        </ol>
+        <ol start="15" class="ol_2">
+            <li class="NumberedList">Verify <span class="span_3">0</span> displays in <span class="span_3">Delay Between Templates</span> field.</li>
+        </ol>
+        <ol start="16" class="ol_2">
+            <li class="NumberedList">Change <span class="span_3">Delay Between Records</span> to <span class="span_3">250</span>.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>A process that uses the Asynchronous post execution method, the option that is selected by default, executes the post for each template sequentially without waiting for the template post to return before executing the next template post. Asynchronous posting may result in locking, especially when posting a combination of GUI and BDC templates in the same process. A process that uses the Synchronous post execution method executes the post for each template, but waits for the post to return before executing the next post. Synchronous is a slower execution method but prevents most record locking situations. </p>
+        <p class="Body">&#160;</p>
+        <p class="Note"><span class="span_3">NOTE:</span>The default <span class="span_3">Delay Between Templates</span> value is 0 seconds, which indicates there is no delay between the execution of templates during a post. Enter a value greater than 0 if posting a multiple template process that contains transactions that take some non-trivial time to <span class="span_3">Save</span> and exit. This situation is more common when working with GUI Script templates than with BDC Script templates. </p>
+        <p class="Body">&#160;</p>
+        <p class="Note"><span class="span_3">NOTE</span>:The <span class="span_3">Delay Between Records</span> field displays the amount of time, in milliseconds, that passes after the processing of one record is complete and the processing of the next record can begin. This setting should be used to avoid data locking issues. The recommended time is from 250 (.25 seconds) to 1000 (1 second). This setting is used for processes based on a BDC Script, GUI Script, or BAPI/RFC template. </p>
+        <ol start="17" class="ol_2">
+            <li class="NumberedList">Click the <span class="span_3">Save</span> button; the Template ID is automatically registered to the Process.</li>
+        </ol>
+        <ol start="18" class="ol_2">
+            <li class="NumberedList">Close the <span class="span_5">Vertical</span> View, the Process Template displays in the <span class="span_5">Dependent </span>pane.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>Integrate automatically adds a single process template loop to the process when the template is added to the process. Integrate uses the View Name established for the template during process creation as the View Name for this loop. If possible, Integrate automatically creates the Primary Key Column Name based on the column that uniquely identifies the record in the view. </p>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process_1.png" style="height: 167px;width: 624px;" class="img_2" />
+        </p>
+        <p class="Caption">Process</p>
+        <ol start="19" class="ol_2">
+            <li class="NumberedList">Click <span class="span_3">Loops</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process_2.png" style="height: 16px;width: 16px;" class="img_1" /> on the <span class="span_5">Process</span> <span class="span_5">Templates</span> page in the <span class="span_5">Dependent</span> pane.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE:</span>The fields for the Loop display in the <span class="span_5">Dependent</span> pane. The fields are automatically mapped because the field names in the view are the same as in the BDC Script recording. If they differ, fields have to be mapped on the Process Template Loop Field Mappings page by clicking edit, and selecting the Mapping Value.</p>
+        <p class="Body">&#160;</p>
+        <p class="Note"><span class="span_3">NOTE:</span>The Template and view created for this exercise were designed and implemented so Integrate’s auto mapping logic automatically configures the Process for posting. The details of the auto mapping and steps to manually override these mappings are covered in a later exercise.</p>
+        <ol start="20" class="ol_2">
+            <li class="NumberedList">Click the <span class="span_3">Edit</span> button in the <span class="span_5">P</span><span class="span_5">arent</span> pane.</li>
+        </ol>
+        <ol start="21" class="ol_2">
+            <li class="NumberedList">Select <span class="span_3">BISMT</span> from <span class="span_3">Primary Key Column Name</span> list box.</li>
+        </ol>
+        <ol start="22" class="ol_2">
+            <li class="NumberedList">Click the <span class="span_3">Save</span> button.</li>
+        </ol>
+        <p class="ScreenShot"> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process_3.png" style="height: 443px;width: 541px;" class="img_2" /></p>
+        <p class="Caption">Process Template Loop</p>
+        <ol start="23" class="ol_2">
+            <li class="NumberedList">Click the <span class="span_3">Browser Back</span> button.</li>
+        </ol>
+        <ol start="24" class="ol_2">
+            <li class="NumberedList">Click <span class="span_3">Activate/Deactivate</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a BDC Script_10.png" style="height: 16px;width: 18px;" class="img_1" /> to activate the template.</li>
+        </ol>
+    </body>
+</html>

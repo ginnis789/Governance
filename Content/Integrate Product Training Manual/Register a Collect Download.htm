@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Outline"><a name="_Toc469048467"></a><span class="span_4">8.0 </span>Register a Collect Download After Post Rule Manually</p>
+        <p class="Body">When posting data to a target system, a Template Administrator can register an <span class="span_3">After Post Rule</span> to a Process Template. The rule runs after the Process Template executes successfully, and before the next Process Template begins processing (if posting with a multi-template process). </p>
+        <p class="Body">A Collect Download rule downloads a Collect source – target – table registration. When registering a Collect Download as an <span class="span_3">After Post Rule</span>, the source, target and table to download must be selected. Once selected, the source and target Where clauses can be manually entered or automatically built at run time. </p>
+        <p class="Body">To create a Collect Download <span class="span_3">After Post Rule</span>:</p>
+        <ol start="1" class="ol_3">
+            <li class="NumberedList">Select <span class="span_3">Categories</span> in the <span class="span_5">Navigation</span> pane. </li>
+            <li class="NumberedList">Click the <span class="span_3">Processes</span> <span class="span_10"><img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process.png" style="height: 16px;width: 18px;" class="img_1" /></span> for the <span class="span_3">TrainingXX</span> category.</li>
+            <li class="NumberedList">Click the <span class="span_3">Templates </span><span class="span_10"><img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Copy a Template.png" style="height: 16px;width: 17px;" class="img_1" /></span> for the <span class="span_3">XXGLAccounts </span>Process. </li>
+            <li class="NumberedList">Click the <span class="span_3">After Post Rules</span> <span class="span_10"><img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Register a Collect Download.png" style="height: 16px;width: 17px;" class="img_1" /></span> in the <span class="span_5">Dependent</span> pane. </li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE</span><span class="span_3">: </span>If no <span class="span_3">After Post Rules</span> have been added to the process template, the <span class="span_5">Vertical</span> <span class="span_5">V</span>iew displays. If rules do exist, click <span class="span_3">Add</span> on the <span class="span_5">Process Templates: After Post Rules </span>page’s <span class="span_5">Horizontal</span> <span class="span_5">V</span>iew. </p>
+        <ol start="5" class="ol_3">
+            <li class="NumberedList">Enter <span class="span_3">10 </span>in the <span class="span_3">Priority </span>field. </li>
+            <li class="NumberedList">Enter a comment in the <span class="span_3">Comment</span> field. </li>
+            <li class="NumberedList">Select <span class="span_3">SAP_ODBC </span>in the <span class="span_3">Collect Source</span> list box. </li>
+            <li class="NumberedList">Select <span class="span_3">dgSAP </span>in the <span class="span_3">Collect Target </span>list box. </li>
+            <li class="NumberedList">Select <span class="span_3">BKPF </span>in the <span class="span_3">Collect Table Name</span> list box. </li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE</span><span class="span_3">:</span>The Where clause selects records to delete from the target before the download. </p>
+        <p class="Note_4">&#160;</p>
+        <p class="Note"><span class="span_3">NOTE</span><span class="span_3">:</span>The data returned from this Where clause is used as an input parameter to the next Template in the Process. The Where clause must be syntactically correct for both the Target and Source.  The Where clause selects records to download from the source to the target.  The data returned from this Where clause is used as an input parameter to the next Template in the Process. </p>
+        <ol start="10" class="ol_3">
+            <li class="NumberedList">Click the <span class="span_3">Save</span> button. </li>
+        </ol>
+    </body>
+</html>

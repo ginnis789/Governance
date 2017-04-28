@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Exercise_1"><a name="_Toc469048446"></a><span class="span_4">Exercise 4 -  </span>Create Material Change by Importing a Recording</p>
+        <p class="Body">A BDC script can be uploaded, if the script has been created in SAP, using the SHDB transaction. It is preferable to upload a script when:</p>
+        <ul class="ul_3">
+            <li class="ListBullet_1">A script was already recorded in SAP using the SHDB transaction (as there is no need to re-record it). </li>
+            <li class="ListBullet_1">A browser other than Internet Explorer is used.</li>
+            <li class="ListBullet_1">The client security policy restricts recording. </li>
+        </ul>
+        <p class="Body">Go to the SHDB transaction in SAP and perform the BDC recording directly in SAP. Save the recording as a flat file, and then upload and import it into a template.</p>
+        <p class="Body">Create an SHDB recording to change the <span class="span_3">Division</span> (SPART) from <span class="span_3">09</span> to <span class="span_3">10</span> for all materials in <span class="span_3">Material Group</span> (MATKL) <span class="span_3">020</span>.</p>
+        <p class="Body">The following steps are required:</p>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Create a SHDB recording in SAP.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Create a template and import the recording.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Add a Process to <span class="span_3">TrainingXX</span> Category.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Use <span class="span_3">txChangeDivision_JDEInt</span> view in the <span class="span_3">sdbNorthwindXX</span> database.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Add a Where Clause.</li>
+        </ul>
+        <ul class="ul_1">
+            <li class="ListBullet_1">Post the changes.</li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Outline"><a name="_Toc469048473"></a><span class="span_4">10.2 </span>Configure BAPI Loops</p>
+        <p class="Body">Each loop, in a process template based on a BAPI template, must be linked to the Upload or Download loop through a relationship. The Auto Generate Database Objects feature creates these relationships, but they can also be edited. </p>
+        <p class="Body">Relationships between loops can be established manually, or Integrate can automatically determine relationships using the Auto Generate Database Objects feature. The first Loop should be associated with the initial view and table. The other loops must be configured with the View, Download Table and Download Primary Key. The primary key column must be an auto-incrementing Identity column in the database.</p>
+        <p class="Note"><span class="span_3">NOTE:</span>If a process template contains a loop with more than 655 columns (which may occur when working with a BAPI/RFC template type), select only a few columns to add data to the table corresponding to the loop when working in SQL. SQL will generate an error if a user attempts to open a table with more than 655 columns.</p>
+        <p class="Body">For the purpose of this training, Auto Generate Database Objects will be use. </p>
+        <p class="Body">To configure the Loops:</p>
+        <ol start="1" class="ol_2">
+            <li class="NumberedList_2">Click the <span class="span_3">Auto Generate Database Objects </span><span class="span_10"><img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Add a Process to the Category.png" style="height: 16px;width: 16px;" class="img_1" /></span>,  message displays.</li>
+            <li class="NumberedList_2">Click the <span class="span_3">OK</span> button.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE</span>:The <span class="span_3">View Name</span>, <span class="span_3">Primary Key Column Name</span>, <span class="span_3">Download Table</span>, and <span class="span_3">Download Primary Key</span> columns have been populated. The mapping values have been populated in the <span class="span_5">Dependent </span>pane. </p>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure BAPI Loops.png" style="height: 97px;width: 625px;" class="img_2" />
+        </p>
+        <p class="Caption">Process Template Loop </p>
+        <p class="Note"><span class="span_3">NOTE:</span>Even if tables contain no data, all loops must be mapped. The <span class="span_3">Primary Key Column Name</span> should be the <span class="span_3">ID</span> for all Loops. </p>
+    </body>
+</html>

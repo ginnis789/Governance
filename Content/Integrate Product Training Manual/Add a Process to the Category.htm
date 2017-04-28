@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="Outline"><a name="_Toc469048463"></a><span class="span_4">7.2 </span>Add a Process to the Category and Configure Loop</p>
+        <p class="Body">Add the <span class="span_3">XXGLAccounts </span>Template as a Process to <span class="span_3">T</span><span class="span_3">raining</span><span class="span_3">XX</span>. </p>
+        <p class="Body">To add the process:</p>
+        <ol start="1" class="ol_3">
+            <li class="NumberedList">Click <span class="span_3">Processes</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Create a Process.png" style="height: 16px;width: 18px;" class="img_1" />.</li>
+            <li class="NumberedList">Click the<span class="span_3"> Add</span> button.</li>
+            <li class="NumberedList">Enter <span class="span_3">80</span> in <span class="span_3">Priority</span> field.</li>
+            <li class="NumberedList">Enter <span class="span_3">XXGLAccounts</span> in <span class="span_3">Name</span> field.</li>
+            <li class="NumberedList">Enter <span class="span_3">GL Account Maintenance</span> in <span class="span_3">Description</span> field.</li>
+            <li class="NumberedList">Select <span class="span_3">XXGLAccounts</span> from <span class="span_3">Template ID</span> list box.</li>
+            <li class="NumberedList">Select <span class="span_3">sdbNorthwindXX</span> from <span class="span_3">Data Source ID</span> list box.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE</span>:Do not select a view.</p>
+        <ol start="8" class="ol_3">
+            <li class="NumberedList">Click the <span class="span_3">Save</span> button.</li>
+            <li class="NumberedList">Close the <span class="span_5">Vertical</span> View.</li>
+            <li class="NumberedList">Locate <span class="span_3">XXGLAccounts</span> process.</li>
+            <li class="NumberedList">Click <span class="span_3">Templates</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Copy a Template.png" style="height: 16px;width: 17px;" class="img_1" />.</li>
+            <li class="NumberedList">Click <span class="span_3">Loops</span> <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Configure Field Mappings.png" style="height: 16px;width: 16px;" class="img_1" />.</li>
+            <li class="NumberedList">Click the <span class="span_3">Auto Generate Database Objects</span> <span class="span_10"><img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Add a Process to the Category.png" style="height: 16px;width: 16px;" class="img_1" /></span>, a message displays.</li>
+            <li class="NumberedList">Click the <span class="span_3">OK</span> button.</li>
+        </ol>
+        <p class="Note"><span class="span_3">NOTE</span>:The <span class="span_3">View Name</span> has been auto generated and the <span class="span_3">Primary Key Column Name</span> is populated. </p>
+        <p class="Note"><span class="span_3">NOTE:</span>The View has the Header  information and the Component relationship. When the common columns have the same field name, Integrate automatically determines the relationship between the two. It is very common that the relationship will not be completely obvious to Integrate. Click the <span class="span_3">Relationship</span> button on the child template to manually choose the relationship to the child, and what should be looped. The Header ID is 1, and linked to a Parent ID column to the child template. Aligning the data for each parent will run all the children. For example, line the Customer order and order detail. It is similar to how a join works in a view forming the relationship from the Order to the Order Detail.</p>
+        <p class="ScreenShot">
+            <img src="../Resources/Images/Integrate Product Training (6.6) VP_GM (04-18-2017)/Add a Process to the Category_1.png" style="height: 146px;width: 624px;" class="img_2" />
+        </p>
+        <p class="Caption">Loop Configuration</p>
+    </body>
+</html>
