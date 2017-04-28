@@ -7,10 +7,14 @@ MadCap|xref.ParaTextOnly
 
 h1
 {
-	color: #4d768e;
 	font: Intersate bold;
 	font-size: 16pt;
 	font-family: 'Interstate Bold';
+	color: #4d768e;
+	font-weight: bold;
+	left: 12pt;
+	right: 6pt;
+	text-align: left;
 }
 
 p
