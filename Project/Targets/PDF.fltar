@@ -4,7 +4,8 @@
   Comment="Adobe PDF Target"
   Type="PDF"
   GlossaryTermConversion="marked"
-  MasterStylesheet="/Content/Resources/Stylesheets/Integrate Product Training (6.6) VP_GM (04-18-2017).css">
+  MasterStylesheet="/Content/Resources/Stylesheets/PrintStyle.css"
+  MasterStylesheetOverride="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
